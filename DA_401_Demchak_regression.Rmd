@@ -1,0 +1,237 @@
+---
+title: "urban_regeneration_regression"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r,include=FALSE}
+setwd("~/Desktop/DA_401/data")
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+library(rddtools)
+library(magrittr)
+
+df<-read.csv("df_acs_busi_art.csv")
+```
+
+```{r}
+df$Number.of.establishments
+```
+
+```{r}
+df$Number.of.establishments <- gsub(",","",df$Number.of.establishments,fixed = T) #get rid of all ","
+```
+
+
+```{r}
+mean(df$Year)
+sd(df$Year)
+min(df$Year)
+max(df$Year)
+```
+
+```{r}
+mean(df$count)
+sd(df$count)
+min(df$count)
+max(df$count)
+```
+
+
+```{r}
+class("Number.of.establishments")
+```
+
+```{r}
+df$Number.of.establishments <- as.numeric(as.character(df$Number.of.establishments))
+```
+
+```{r}
+sapply(df$Number.of.establishments, class)
+```
+
+
+```{r}
+mean(df$Number.of.establishments)
+sd(df$Number.of.establishments)
+min(df$Number.of.establishments)
+max(df$Number.of.establishments)
+```
+
+```{r}
+#median household income 
+mean(df$DP03_0062E)
+sd(df$DP03_0062E)
+min(df$DP03_0062E)
+max(df$DP03_0062E)
+```
+```{r}
+#employment
+mean(df$DP03_0002E)
+sd(df$DP03_0002E)
+min(df$DP03_0002E)
+max(df$DP03_0002E)
+```
+```{r}
+df %>%
+  select(Year, DP03_0002E) %>%
+  mutate(threshold = as.factor(ifelse(Year <= 2011, 1, 0))) %>%
+  ggplot(aes(x = Year, y = DP03_0002E, color = threshold)) +
+  geom_point() +
+  xlim(2004, NA)+
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_brewer(palette = "Accent") +
+  guides(color = FALSE) +
+  geom_vline(xintercept = 2011, color = "red",
+    size = 1, linetype = "dashed") +
+  ggtitle("Employment in Franklin County")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  labs(y = "Employment",
+       x = "Year")
+```
+
+```{r}
+df %>% 
+  ggplot(aes(x = Year, y = DP03_0002E)) + 
+  geom_line() +
+  geom_vline(xintercept = 2011, color = "red", size = 1, linetype = "dashed") + 
+  xlim(2004, NA)+
+  annotate("text", x = 20.4, y = 105, label = "",
+           size=4) +
+  ggtitle("Number of Establishments")+
+  labs(y = "Employment",
+       x = "Year")
+```
+
+```{r}
+rdd_data(y = df$DP03_0002E, 
+         x = df$Year, 
+         cutpoint = 2011) %>% 
+  rdd_reg_lm(slope = "same") %>% 
+  summary() #employment 
+```
+
+```{r}
+df %>% 
+  ggplot(aes(x = Year, y = Number.of.establishments)) + 
+  geom_line() +
+  geom_vline(xintercept = 2011, color = "red", size = 1, linetype = "dashed") + 
+  xlim(2004, NA)+
+  annotate("text", x = 20.4, y = 105, label = "",
+           size=4) +
+  labs(y = "Number of Establishments",
+       x = "Year")
+```
+
+
+```{r}
+rdd_data(y = df$Number.of.establishments, 
+         x = df$Year, 
+         cutpoint = 2011) %>% 
+  rdd_reg_lm(slope = "same") %>% 
+  summary()
+```
+
+```{r}
+df %>% 
+  ggplot(aes(x = Year, y = DP03_0062E)) + 
+  geom_line() +
+  geom_vline(xintercept = 2011, color = "red", size = 1, linetype = "dashed") + 
+  xlim(2004, NA)+
+  annotate("text", x = 20.4, y = 105, label = "",
+           size=4) +
+  labs(y = "Median Household Income",
+       x = "Year")
+```
+
+```{r}
+rdd_data(y = df$DP03_0062E, 
+         x = df$Year, 
+         cutpoint = 2011) %>% 
+  rdd_reg_lm(slope = "same") %>% 
+  summary()
+```
+
+
+
+
+
+```{r}
+data_pre2011 <- data %>%
+  filter(Year<=2011)
+
+data_post2011 <- data%>%
+  filter(Year>2011)
+```
+
+```{r}
+data_pre2011 %>%
+  ggplot(aes(Number.of.establishments))+
+  geom_histogram(bins = 7, color = "blue", fill = "azure3")+
+  ggtitle("Number of Establishments")+
+  theme_tufte()+
+  labs(x="Number of Establishments", y="Count")+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+
+```{r}
+reg_pre<-lm(Number.of.establishments~Year+count+DP03_0062E,data_pre2011) #Median household income
+summary(reg_pre)
+```
+
+```{r}
+reg_post<-lm(Number.of.establishments~Year+count+DP03_0062E,data_post2011)
+summary(reg_post)
+```
+
+```{r}
+res_pre<-reg_pre$residuals
+reg_pre%>%
+  ggplot(aes(res_pre))+
+  geom_histogram(bins=7,color="blue",fill="azure3")+
+  ggtitle("Residual Plot")+
+  labs(x="residual")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+reg_pre%>%
+  ggplot(aes(Number.of.establishments,res_pre))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  ggtitle("Number of Pop Sales Residual Plot")+
+  labs(y="residual")+
+  labs(x="Number of Sales")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+```{r}
+res_pst<-reg_post$residuals
+data_post2011%>%
+  ggplot(aes(res_pst))+
+  geom_histogram(bins=7,color="blue",fill="azure3")+
+   ggtitle("Residual Plot")+
+  labs(x="residual")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+data_post2011%>%
+  ggplot(aes(Number.of.establishments,res_pst))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  ggtitle("Number of Pop Sales Residual Plot")+
+  labs(y="residual")+
+  labs(x="Number of Sales")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+
+
+
