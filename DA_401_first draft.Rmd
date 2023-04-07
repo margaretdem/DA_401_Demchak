@@ -1,0 +1,143 @@
+---
+title: "DA_401_first_draft"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+setwd("~/Desktop/DA_401")
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+
+df<-read.csv("df_gdp_grant_art.csv")
+```
+
+```{r}
+glimpse(df)
+```
+
+```{r}
+mean(df$art_amount)
+sd(df$art_amount)
+min(df$art_amount)
+max(df$art_amount)
+```
+```{r}
+mean(df$total_grant)
+sd(df$total_grant)
+min(df$total_grant)
+max(df$total_grant)
+```
+```{r}
+mean(df$gdp_per_capita)
+sd(df$gdp_per_capita)
+min(df$gdp_per_capita)
+max(df$gdp_per_capita)
+```
+```{r}
+mean(df$grant_per_gdp)
+sd(df$grant_per_gdp)
+min(df$grant_per_gdp)
+max(df$grant_per_gdp)
+```
+
+```{r}
+df %>%
+  ggplot(aes(art_amount))+
+  geom_histogram(bins = 4, color = "blue", fill = "azure3")+
+  ggtitle("art_amount")+
+  theme_tufte()+
+  labs(x="art_amount", y="Count")+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+```{r}
+df %>%
+  ggplot(aes(grant_per_gdp))+
+  geom_histogram(bins = 4, color = "blue", fill = "azure3")+
+  ggtitle("grant_per_gdp")+
+  theme_tufte()+
+  labs(x="grant_per_gdp", y="Count")+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+
+```{r}
+df%>%
+  ggplot(aes(x=city, y=grant_per_gdp, fill = city))+
+  theme_tufte()+
+  labs(x= "City", y= "Grant Funding per GDP")+
+  ggtitle("Grant Funding per GDP by City")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  stat_summary(fun.y = "mean", geom = "bar") +
+  stat_summary(fun.data="mean_cl_normal", geom ="errorbar", fun.args=list(conf.int=.95), width=0.35)
+```
+
+```{r}
+df%>%
+  ggplot(aes(x=city, y=art_amount, fill = city))+
+  theme_tufte()+
+  labs(x= "City", y= "Art Amount")+
+  ggtitle("Public Art Amount Reported on PAA")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  stat_summary(fun.y = "mean", geom = "bar") +
+  stat_summary(fun.data="mean_cl_normal", geom ="errorbar", fun.args=list(conf.int=.95), width=0.35)
+```
+
+```{r}
+df%>%
+  ggplot(aes(grant_per_gdp, art_amount))+
+  geom_point()+
+  geom_smooth()+
+  theme_tufte()+
+  labs(x= "grant_per_gdp", y= "art_amount")+
+  ggtitle("art_amount by Grant_per_gdp")+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+
+
+```{r}
+df%>%
+  ggplot(aes(x=grant_per_gdp, y= art_amount)) +
+  geom_point(color="blue") +
+  geom_smooth(method="lm", color="black")+
+  theme_tufte()+
+  labs(x= "Grant per GDP", y= "Art Amount")+
+  ggtitle("Art Amount by Grant per GDP")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+reg<-lm(data=df, art_amount~grant_per_gdp)
+summary(reg)
+```
+
+```{r}
+res<-reg$residuals
+df%>%
+  ggplot(aes(res))+
+  geom_histogram(color="blue",fill="azure3")+
+  ggtitle("Residual Plot")+
+  labs(x="Residual")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+df%>%
+  ggplot(aes(art_amount,res))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  ggtitle("Residual Plot")+
+  labs(y="Residual")+
+  labs(x="Number of Art Works")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+
+
+
+
+
+
