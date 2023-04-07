@@ -1,0 +1,3304 @@
+{
+    "data": {
+        "searchArts": {
+            "items": [
+                {
+                    "id": "b8945189-60b4-41fa-a8bf-1e9c61df8c9d",
+                    "titles": [
+                        "Greenway Paintbox At Atlantic Avenue & State Street, Boston"
+                    ],
+                    "collections": [
+                        "Boston Art Commission, City of Boston, MA"
+                    ],
+                    "artists": [
+                        "Eddie Bruckner"
+                    ],
+                    "address": {
+                        "address": "Atlantic Avenue & State Street",
+                        "zip": "02110",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "792b52b6265489c6e194c7f292c7d259",
+                            "title": "Greenway Paintbox At Atlantic Avenue & State Street",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T19:42:35.439",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "3f2efe749445424a5605aa87424200e5",
+                            "title": "Greenway Paintbox At Atlantic Avenue & State Street",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T19:42:33.031",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "436ae9dba920dccf0f0452c385afa4fa",
+                            "title": "Greenway Paintbox At Atlantic Avenue & State Street",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T19:42:30.56",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d7542fd8a03a5d5a1bdb7f9f927200ff",
+                            "title": "Greenway Paintbox At Atlantic Avenue & State Street",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T19:42:28.449",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "94059a9b71df6c9454410fd98e67c1bd",
+                            "title": "Greenway Paintbox At Atlantic Avenue & State Street",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T19:42:26.209",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c5c6f6894c06640200d3e9994b8865ad",
+                            "title": "View a video of the Making of the Public Art Project on YouTube",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T19:42:21.677",
+                            "externalUrl": "https://youtu.be/q_93y6Xu_V0",
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.051675,
+                        42.35949
+                    ],
+                    "currentLocation": "Intersection of Atlantic Avenue & State Street, Boston",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Art-Commission--City-of-Boston--MA",
+                            "title": "Boston Art Commission, City of Boston, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "b8945189",
+                    "titleEncoded": "Greenway-Paintbox-At-Atlantic-Avenue-State-Street-Boston",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "48720b14-6d2d-407b-9027-d429adbb8b4f",
+                    "titles": [
+                        "Ship of Pearl"
+                    ],
+                    "collections": [
+                        "Cathedral Church of St Paul"
+                    ],
+                    "artists": [
+                        "Donald Lipski"
+                    ],
+                    "address": {
+                        "address": "138 Tremont St",
+                        "zip": "02111",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "072f62679fc6567040c8cf9810e0fa65",
+                            "title": "Ship of Pearl",
+                            "mediaType": "image",
+                            "updatedAt": "2020-06-23T15:55:58.554",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9a9ec0cfffbb1865e2081668fb067281",
+                            "title": "Ship of Pearl",
+                            "mediaType": "image",
+                            "updatedAt": "2020-06-23T15:55:48.918",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5ab5b8a77d20eca7248c60da1d73c660",
+                            "title": "Ship of Pearl",
+                            "mediaType": "image",
+                            "updatedAt": "2020-06-23T15:55:26.583",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e85c04a93bd9910c48024dd37a68fc79",
+                            "title": "Ship of Pearl",
+                            "mediaType": "image",
+                            "updatedAt": "2020-06-23T15:54:41.674",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9db971d114fa7687d80caa8a7219b231",
+                            "title": "Ship of Pearl",
+                            "mediaType": "image",
+                            "updatedAt": "2020-06-23T15:54:30.95",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0633494,
+                        42.3557252
+                    ],
+                    "currentLocation": "Cathedral Church of St Paul",
+                    "collectionDetails": [
+                        {
+                            "id": "Cathedral-Church-of-St-Paul",
+                            "title": "Cathedral Church of St Paul",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "48720b14",
+                    "titleEncoded": "Ship-of-Pearl",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "37247423-b985-4eab-8876-ed55576275c6",
+                    "titles": [
+                        "North Square Stories"
+                    ],
+                    "collections": [
+                        "Boston Art Commission, City of Boston, MA"
+                    ],
+                    "artists": [
+                        "Ann Hirsch",
+                        "Jeremy Angier"
+                    ],
+                    "address": {
+                        "address": "North Square & Moon St",
+                        "zip": "02113",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "eb136f208ceca38ff4e9db25ca6a59fb",
+                            "title": "North Square Stories",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:36.24",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "03ddfbab07b5ff2e1eee39165c043f6d",
+                            "title": "North End Story Map",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:33.936",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4a49d39d2ad508d2ddacbf22b418a6d7",
+                            "title": "1798 North Square View",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:31.532",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d9ccb2751424196bc0320d4acd86f1b2",
+                            "title": "1798 North Square View detail",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:29.065",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2205b84d187eb0efc0ed6120476dac3b",
+                            "title": "Fantastical Historical Nautical Instrument",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:24.927",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "45a11ae263afc7f8ed72f803d81657d0",
+                            "title": "What We Brought With Us",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T17:55:22.823",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bbcd67019b5c5021116a1190a2de07d7",
+                            "title": "North Square Stories Video",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T17:55:17.557",
+                            "externalUrl": "https://player.vimeo.com/video/390351831?dnt=1&app_id=122963",
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.05306961463884,
+                        42.36407087066779
+                    ],
+                    "currentLocation": "North Square & Moon St, Boston, MA",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Art-Commission--City-of-Boston--MA",
+                            "title": "Boston Art Commission, City of Boston, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "37247423",
+                    "titleEncoded": "North-Square-Stories",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "88bfe7c4-7159-4a3f-812b-6fc09e6575dd",
+                    "titles": [
+                        "The Light Between"
+                    ],
+                    "collections": [
+                        "Tishman-Speyer"
+                    ],
+                    "artists": [
+                        "Anne Patterson"
+                    ],
+                    "address": {
+                        "address": "125 High Street",
+                        "zip": "02110",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c79b7aa2cbefb3e79a8446bafb6046e5",
+                            "title": "The Light Between",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:03:01.17",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "44b03d0837128be4ffe75415b947c543",
+                            "title": "The Light Between",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:03:00.873",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5483164942d098c699934ac87b7da488",
+                            "title": "The Light Between",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:03:00.507",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ab2b65fd2da825cc69fe8402c71bce2c",
+                            "title": "The Light Between",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:03:00.093",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fbe64870257a30eb96c5bd11d8a22a93",
+                            "title": "The Light Between",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:59.715",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.053918,
+                        42.355344
+                    ],
+                    "currentLocation": "125 High Street",
+                    "collectionDetails": [
+                        {
+                            "id": "Tishman-Speyer",
+                            "title": "Tishman-Speyer",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "88bfe7c4",
+                    "titleEncoded": "The-Light-Between",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "b01f3518-8c58-4d8e-9caf-1c909efedfb0",
+                    "titles": [
+                        "Freedom of Information"
+                    ],
+                    "collections": [
+                        "Figment"
+                    ],
+                    "artists": [
+                        "Ioana Urma"
+                    ],
+                    "address": {
+                        "address": "378-388 Atlantic Avenue",
+                        "zip": "02110",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c9921bbed6dbd5d78d7023c784d4a274",
+                            "title": "Freedom of Information",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T21:29:59.506",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a5fdc5ca973e875eb4639325d9f6b939",
+                            "title": "Freedom of Information",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T21:29:57.44",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "23359557f2ffe3d6eee9c438b5a4dc34",
+                            "title": "Freedom of Information",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T21:29:55.732",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7d424e84ca2d5538964439152a41b277",
+                            "title": "Freedom of Information",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T21:29:53.388",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "176ec9dd0caf79b18e6cf701838ea69a",
+                            "title": "Freedom of Information",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T21:29:51.494",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f24e8b9061f404eb2a04382bfbda292c",
+                            "title": "Freedom of Information Video 1",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T21:29:48.224",
+                            "externalUrl": "https://www.youtube.com/watch?v=jPEXir245Ms",
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cf1d37a66dbd7f6c8d4acca692cf9c83",
+                            "title": "Freedom of Information Video 2",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T21:29:44.458",
+                            "externalUrl": "https://www.youtube.com/watch?v=hP8TCY7hQ88",
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0508069,
+                        42.356071
+                    ],
+                    "currentLocation": "Rose Kennedy Greenway at Rowes Wharf",
+                    "collectionDetails": [
+                        {
+                            "id": "Figment",
+                            "title": "Figment",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "b01f3518",
+                    "titleEncoded": "Freedom-of-Information",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "13c3bdcd-e9cb-486c-aa93-6c16db6a3c53",
+                    "titles": [
+                        "Ostrich"
+                    ],
+                    "collections": [
+                        "Figment"
+                    ],
+                    "artists": [
+                        "Ioana Urma"
+                    ],
+                    "address": {
+                        "address": null,
+                        "zip": "02111",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "630e2d221bd9c8ca0d563dae8320ac38",
+                            "title": "Ostrich",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:23:19.219",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e89b8e97575d7847b75d6ea559859fcd",
+                            "title": "Ostrich",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:23:18.927",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1b2dea929c49a488c88c896833d42e27",
+                            "title": "Ostrich",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:23:18.61",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0149cb1e7222110d74e14719e90323ec",
+                            "title": "Ostrich",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:23:18.239",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "631e720ac7ac6042c52971b359e6fb75",
+                            "title": "Ostrich",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:23:17.945",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0525,
+                        42.354611
+                    ],
+                    "currentLocation": "Rose Kennedy Greenway",
+                    "collectionDetails": [
+                        {
+                            "id": "Figment",
+                            "title": "Figment",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "13c3bdcd",
+                    "titleEncoded": "Ostrich",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f2000e4f-e6d1-4851-9b91-07e9847e3477",
+                    "titles": [
+                        "As If It Were Already Here"
+                    ],
+                    "collections": [
+                        "Rose Kennedy Greenway Conservancy"
+                    ],
+                    "artists": [
+                        "Janet Echelman"
+                    ],
+                    "address": {
+                        "address": null,
+                        "zip": "02111",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "b607bf5282b10f2257eaca13fb4500b9",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:40:04.257",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8ca35ecf1e0c2223f99b51b1b1b82ef4",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:40:01.838",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f5fd67dab8992846013b29f955e83ec6",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:39:59.396",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "99f96523af0920b80d9697507a2bead1",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:39:57.387",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "dda62e2ab4701f11e5e248f3ce143746",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:39:55.242",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c733c6a3954ceaf33e243e85627e771a",
+                            "title": "As If It Were Already Here",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T18:39:52.423",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f06e9098d38ef526ad65452d67812020",
+                            "title": "As If It Were Already Here Timelapse Video",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T18:39:47.196",
+                            "externalUrl": "https://vimeo.com/126855070",
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0525,
+                        42.354611
+                    ],
+                    "currentLocation": "Rose Kennedy Greenway",
+                    "collectionDetails": [
+                        {
+                            "id": "Rose-Kennedy-Greenway-Conservancy",
+                            "title": "Rose Kennedy Greenway Conservancy",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f2000e4f",
+                    "titleEncoded": "As-If-It-Were-Already-Here",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "ef49530b-d764-4a07-9ade-bd2d9dd051c2",
+                    "titles": [
+                        "Tidal Flowers"
+                    ],
+                    "collections": [
+                        "Art Deco Masterpiece"
+                    ],
+                    "artists": [
+                        "Tim Murdoch"
+                    ],
+                    "address": {
+                        "address": "Ft. Point Channel",
+                        "zip": "02210",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "63832a7bcd436854738186efff16727a",
+                            "title": "Tidal Flowers",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:17.312",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "dcebb10a685ba286934c18e442ee567b",
+                            "title": "Tidal Flowers",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:16.945",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fdc1240a3c55a8d127474993f20091b8",
+                            "title": "Tidal Flowers",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:16.621",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5f40ce91e4705b642cc8eaac2ce1ba26",
+                            "title": "Tidal Flowers",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:16.291",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "eb6dca75e67bf819d956bd21158dc39d",
+                            "title": "Tidal Flowers",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:15.96",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.051844,
+                        42.352775
+                    ],
+                    "currentLocation": "Fort Point Channel",
+                    "collectionDetails": [
+                        {
+                            "id": "Art-Deco-Masterpiece",
+                            "title": "Art Deco Masterpiece",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "ef49530b",
+                    "titleEncoded": "Tidal-Flowers",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "88c230e8-18d0-44d7-8a0f-7bbfd26e8f42",
+                    "titles": [
+                        "SOS (Safety Orange Swimmers)"
+                    ],
+                    "collections": [
+                        "Fort Point Arts Community"
+                    ],
+                    "artists": [
+                        "Ann Hirsch",
+                        "Jeremy Angier"
+                    ],
+                    "address": {
+                        "address": "Ft. Point Channel",
+                        "zip": "02210",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "ed9cc32a1893b9f067493001ab142c26",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:23.909",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a6f24298c47f30c09185eeb7dd37eb55",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:23.454",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "3be536d0b20d8d8709a9bba09bc3632d",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:23.013",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2c8881c85fd949da9bc4c321b953406f",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:22.717",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "604a37c2a3dcd8f6a403ed80d4392739",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:22.428",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ed3960939325ddd4900c6f7ae6eee815",
+                            "title": "SOS (Safety Orange Swimmers)",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:43:22.131",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.051844,
+                        42.352775
+                    ],
+                    "currentLocation": "Fort Point Channel",
+                    "collectionDetails": [
+                        {
+                            "id": "Fort-Point-Arts-Community",
+                            "title": "Fort Point Arts Community",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "88c230e8",
+                    "titleEncoded": "SOS-Safety-Orange-Swimmers-",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "24fb801b-81f7-4acd-a20d-f9cd0e1d3928",
+                    "titles": [
+                        "Who Wears Wool"
+                    ],
+                    "collections": [
+                        "Artist-Sponsored"
+                    ],
+                    "artists": [
+                        "Hilary Zelson"
+                    ],
+                    "address": {
+                        "address": "Ft. Point Channel",
+                        "zip": "02210",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c055ed699ef00043f97069c96e878115",
+                            "title": "Who Wears Wool",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:57.551",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "95b574abee897447c2237c7d2e048aac",
+                            "title": "Who Wears Wool",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:57.241",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "be39c199d556010b3d8b8d3783c219e0",
+                            "title": "Who Wears Wool",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:56.95",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fe7e1330a857024b9b0b35843ed928f0",
+                            "title": "Who Wears Wool",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:56.655",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.051844,
+                        42.352775
+                    ],
+                    "currentLocation": "Fort Point Channel",
+                    "collectionDetails": [
+                        {
+                            "id": "Artist-Sponsored",
+                            "title": "Artist-Sponsored",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "24fb801b",
+                    "titleEncoded": "Who-Wears-Wool",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "b90f0c65-396c-4676-a750-8c6366cf240f",
+                    "titles": [
+                        "Poe Returning to Boston",
+                        "Edgar Allan Poe"
+                    ],
+                    "collections": [
+                        "Boston Art Commission, City of Boston, MA"
+                    ],
+                    "artists": [
+                        "Stefanie Rocknak"
+                    ],
+                    "address": {
+                        "address": "2 Park Plaza",
+                        "zip": "02116",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "875e47d28a4d367efd7f8786a10e263d",
+                            "title": "Poe Returning to Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:22:45.478",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "df0400a4b2565276265bfe30d595efdf",
+                            "title": "Poe Returning to Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:22:45.188",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "34a66643dd46b424be8bf7e8444c2a0a",
+                            "title": "Poe Returning to Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:22:44.836",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2e0243ae46fa19ff7b26c2fbd9d9aeac",
+                            "title": "Poe Returning to Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:22:44.537",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1c9b5b5b997ef5bd095bddfd7a4a510a",
+                            "title": "Poe Returning to Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:22:44.241",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.067642,
+                        42.351797
+                    ],
+                    "currentLocation": "Edgar Allan Poe Square",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Art-Commission--City-of-Boston--MA",
+                            "title": "Boston Art Commission, City of Boston, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "b90f0c65",
+                    "titleEncoded": "Poe-Returning-to-Boston",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "7555da90-de90-453b-9e7b-a30246ab5231",
+                    "titles": [
+                        "Lupus"
+                    ],
+                    "collections": [
+                        "Lotus Development Corporation"
+                    ],
+                    "artists": [
+                        "John Raimondi"
+                    ],
+                    "address": {
+                        "address": "55 Cambridge Pkwy",
+                        "zip": "02141",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "3f23aaa6cc805400f928f0bea5ef2d4f",
+                            "title": "Lupus",
+                            "mediaType": "image",
+                            "updatedAt": "2022-09-15T21:13:51.407",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b7ad95554a732781c09fcffb8387deed",
+                            "title": "Lupus",
+                            "mediaType": "image",
+                            "updatedAt": "2022-09-15T21:13:35.873",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8f3e2850ec71f5eaddce2d8d4e15e5cd",
+                            "title": "Lupus",
+                            "mediaType": "image",
+                            "updatedAt": "2022-09-15T21:13:20.769",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.07580452846192,
+                        42.366090966081956
+                    ],
+                    "currentLocation": "55 Cambridge Pkwy, Cambridge, MA",
+                    "collectionDetails": [
+                        {
+                            "id": "Lotus-Development-Corporation",
+                            "title": "Lotus Development Corporation",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "7555da90",
+                    "titleEncoded": "Lupus",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "018251c9-c59a-4170-9c9b-57435f7d62c9",
+                    "titles": [
+                        "UPLIFT"
+                    ],
+                    "collections": [
+                        "Liberty Mutual Insurance"
+                    ],
+                    "artists": [
+                        "Mia Pearlman"
+                    ],
+                    "address": {
+                        "address": "157 Berkeley St",
+                        "zip": "02116",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "b80e865e93aaea0de41aec2d3b92c710",
+                            "title": "UPLIFT",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:15:30.625",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ff36092340b1b115879e960f43248b82",
+                            "title": "UPLIFT",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:15:30.318",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ed42366390b11b095cef1726f61b7d13",
+                            "title": "UPLIFT",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:15:29.995",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ee8c809e10ebbf0879df3b2efd636bcd",
+                            "title": "UPLIFT",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:15:29.701",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "05cf24b68039fc8bc13d1019c52629e3",
+                            "title": "UPLIFT",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:15:29.407",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.072101,
+                        42.349305
+                    ],
+                    "currentLocation": "Berkeley and Columbus streets",
+                    "collectionDetails": [
+                        {
+                            "id": "Liberty-Mutual-Insurance",
+                            "title": "Liberty Mutual Insurance",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "018251c9",
+                    "titleEncoded": "UPLIFT",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "15315ff2-7bd7-4d7c-858b-f3038009a02c",
+                    "titles": [
+                        "Work and Leisure"
+                    ],
+                    "collections": [
+                        "John Hancock Insurance"
+                    ],
+                    "artists": [
+                        "Lincoln Frederick Perry"
+                    ],
+                    "address": {
+                        "address": "200 Clarendon Street",
+                        "zip": "02116",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d04019e7cfd0756add583ac02bd625f3",
+                            "title": "Work and Leisure",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:38:59.207",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "51273f4ce57f7ff2ea8502a8bcdf8a01",
+                            "title": "Work and Leisure",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:38:58.898",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "dde25a305a4448da5e515a83743da6d7",
+                            "title": "Work and Leisure",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:38:58.533",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4aa5316284532c86a77169d6bc2382a2",
+                            "title": "Work and Leisure",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:38:58.022",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "728419c480fa62531e0432caf8aa07c8",
+                            "title": "Work and Leisure",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:38:57.666",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.074631,
+                        42.349516
+                    ],
+                    "currentLocation": "Hancock Building (formerly)",
+                    "collectionDetails": [
+                        {
+                            "id": "John-Hancock-Insurance",
+                            "title": "John Hancock Insurance",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "15315ff2",
+                    "titleEncoded": "Work-and-Leisure",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "83591f65-128b-4d3e-889a-196b4fd9ed73",
+                    "titles": [
+                        "Beacon of Color"
+                    ],
+                    "collections": [
+                        "Cambridge Arts Council"
+                    ],
+                    "artists": [
+                        "Nancy Simonds"
+                    ],
+                    "address": {
+                        "address": "First St. and Spring St.",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d7c198a0eb2e7715944a2c835bc354bd",
+                            "title": "Beacon of Color",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-18T23:04:07.478",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8963ef6b53ed63f41bd78a6d8f5fbad3",
+                            "title": "Beacon of Color",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:59:43.301",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b6ab86c8a48195b7c59d35771f167a77",
+                            "title": "Beacon of Color",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:59:43.011",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d070e927784b36a8b98cad0010ec74a0",
+                            "title": "Beacon of Color",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:59:42.716",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "87c4ce0e828d80a4900a653151a51db7",
+                            "title": "Beacon of Color",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:59:42.424",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.07742,
+                        42.36858
+                    ],
+                    "currentLocation": "First Street Garage",
+                    "collectionDetails": [
+                        {
+                            "id": "Cambridge-Arts-Council",
+                            "title": "Cambridge Arts Council",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "83591f65",
+                    "titleEncoded": "Beacon-of-Color",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "45b4c9d4-740e-47ab-ac51-ff795bf19320",
+                    "titles": [
+                        "You Are Here"
+                    ],
+                    "collections": [
+                        "Massachusetts Bay Transportation Authority"
+                    ],
+                    "artists": [
+                        "Jason Asselin",
+                        "Marybeth (Mungovan) Lensel"
+                    ],
+                    "address": {
+                        "address": "Congress St and World Trade Center Ave.",
+                        "zip": "02210",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "6f93549f6d2d03dd0d45b40742f05bdc",
+                            "title": "You Are Here",
+                            "mediaType": "image",
+                            "updatedAt": "2019-02-27T22:28:49.35",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c1b40ed18c7e86fd4e7eba71a776bfe5",
+                            "title": "You Are Here",
+                            "mediaType": "image",
+                            "updatedAt": "2019-02-27T22:28:36.481",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "228349e13b9ecf7576b38786dd68bc9b",
+                            "title": "You Are Here",
+                            "mediaType": "image",
+                            "updatedAt": "2019-02-27T22:28:23.444",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9ce2ee3518b2708c227940d3d66b22a5",
+                            "title": "You Are Here",
+                            "mediaType": "image",
+                            "updatedAt": "2019-02-27T22:28:10.043",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d7796549601e500ba2076b1ec1541bc3",
+                            "title": "You Are Here",
+                            "mediaType": "image",
+                            "updatedAt": "2019-02-27T22:27:55.946",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.042247,
+                        42.348713
+                    ],
+                    "currentLocation": "Massachusetts Bay Transportation Authority World Trade Center Station",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Bay-Transportation-Authority",
+                            "title": "Massachusetts Bay Transportation Authority",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "45b4c9d4",
+                    "titleEncoded": "You-Are-Here",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "3598a0cd-2378-480c-807d-d95a039f52d9",
+                    "titles": [
+                        "Bunker Hill Monument"
+                    ],
+                    "collections": [
+                        "National Park Service"
+                    ],
+                    "artists": [],
+                    "address": {
+                        "address": "Monument Square",
+                        "zip": "02129",
+                        "city": null,
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c3eefe8020b00f1ba943f82a2c9dec35",
+                            "title": "Bunker Hill Monument",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-13T17:42:15.178",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6c4899cc6197cad8f0ff05657c8449ba",
+                            "title": "Bunker Hill Monument",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-13T17:42:10.925",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d09139aa0788d1f47c1d8d7863c78f75",
+                            "title": "Bunker Hill Monument",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-13T17:40:57.834",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.06064765397849,
+                        42.37703571089716
+                    ],
+                    "currentLocation": "Monument Square, Charlestown",
+                    "collectionDetails": [
+                        {
+                            "id": "National-Park-Service",
+                            "title": "National Park Service",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "3598a0cd",
+                    "titleEncoded": "Bunker-Hill-Monument",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "93320484-4826-4147-af8c-ae96ccc4ac94",
+                    "titles": [
+                        "Figure découpée",
+                        "[Cut-Out Figure], 1975"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Pablo Picasso"
+                    ],
+                    "address": {
+                        "address": "100 Main St",
+                        "zip": "02142",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "074992835396dcea493e1dffe54b451c",
+                            "title": "Figure découpée",
+                            "mediaType": "image",
+                            "updatedAt": "2022-10-26T14:58:46.605",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0847836,
+                        42.3601926
+                    ],
+                    "currentLocation": "Massachusetts Institute of Technology, Sloan School of Management, Arthur D. Little Building (Building E60), Back Courtyard",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "93320484",
+                    "titleEncoded": "Figure-d-coup-e",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "8d9ddf67-6f15-4f8c-93b9-12bb698a057a",
+                    "titles": [
+                        "Iscariot"
+                    ],
+                    "collections": [
+                        "Turchin Center for the Visual Arts"
+                    ],
+                    "artists": [
+                        "Jackson Trace O'Connor"
+                    ],
+                    "address": {
+                        "address": "256 Marginal St.",
+                        "zip": "02128",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d50ce421c3ba19769dccea59e74c4b8f",
+                            "title": "Iscariot",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:41:29.659",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "794a8ba082f3dab1762001e18088ad7d",
+                            "title": "Iscariot",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:41:29.368",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f80a2de5bb8f0ae1b6546abb071547bc",
+                            "title": "Iscariot",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:41:29.067",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "08510f81a4155da3e0c69165473e74b2",
+                            "title": "Iscariot",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:41:28.686",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "12d4b13e7fcb69a807e65f8fa204e788",
+                            "title": "Iscariot",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:41:28.319",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.032679,
+                        42.364103
+                    ],
+                    "currentLocation": "East Boston",
+                    "collectionDetails": [
+                        {
+                            "id": "Turchin-Center-for-the-Visual-Arts",
+                            "title": "Turchin Center for the Visual Arts",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "8d9ddf67",
+                    "titleEncoded": "Iscariot",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "8356e4ae-d1b0-47e7-9a97-cffd57b9cad2",
+                    "titles": [
+                        "Oscillations"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Carrie Bodle"
+                    ],
+                    "address": {
+                        "address": "77 Massachusetts Ave",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "f5cb10ab2fba4ffd083a0afe254e49ae",
+                            "title": "Oscillations",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:25.372",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b22014413c9044ba48b4be980a688804",
+                            "title": "Oscillations",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:25.087",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cc478b510edd15d9fed113e16543b9f8",
+                            "title": "Oscillations",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:24.746",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c9a859029485963548ff17bb3dd39028",
+                            "title": "Oscillations",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:24.423",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.093559,
+                        42.35903
+                    ],
+                    "currentLocation": "MIT Campus",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "8356e4ae",
+                    "titleEncoded": "Oscillations",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "8314af81-2436-455f-bd56-5977d78305ff",
+                    "titles": [
+                        "Sonification/Listening Up"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Carrie Bodle"
+                    ],
+                    "address": {
+                        "address": "77 Massachusetts Ave",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "39f11131b18de5dda72fac7d31dc19db",
+                            "title": "Sonification/Listening Up",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:24.094",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d0d5445df95a3c25487c2be0df11c246",
+                            "title": "Sonification/Listening Up",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:23.765",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4601211bc02a1d1782d980e9da7b084b",
+                            "title": "Sonification/Listening Up",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:23.422",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "87367bda43561ff84155a6fcdcea4995",
+                            "title": "Sonification/Listening Up",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:23.042",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.093559,
+                        42.35903
+                    ],
+                    "currentLocation": "MIT Campus, Building 54 (Green Buiding)",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "8314af81",
+                    "titleEncoded": "Sonification-Listening-Up",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "3bd592f5-c2fb-4318-9412-c9a7a68d78d9",
+                    "titles": [
+                        "\"Laundry Peace\" (Media War) Guerilla Art Installation",
+                        "\"Laundry Peace\" Installation"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Ioana Urma"
+                    ],
+                    "address": {
+                        "address": "77 Massachusetts Avenue",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "519dd68cfbda779c9b5b686e59180779",
+                            "title": "Laundry Peace\\(Media War) Guerilla Art Installation",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:21:04.332",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "71f11328e05e4e3382d286ba9d87148b",
+                            "title": "Laundry Peace\\(Media War) Guerilla Art Installation",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:21:04.009",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d81f7e6352524b34716c47d4157e9a6a",
+                            "title": "Laundry Peace\\(Media War) Guerilla Art Installation",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:21:03.689",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "78a81490e977ded66ac44ac9dda673be",
+                            "title": "Laundry Peace\\(Media War) Guerilla Art Installation",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:21:03.366",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4967fae09bcb3b96784723e12ab98f7c",
+                            "title": "Laundry Peace\\(Media War) Guerilla Art Installation",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:21:03.037",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0936091,
+                        42.3597807
+                    ],
+                    "currentLocation": "Throughout the MIT Campus",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "3bd592f5",
+                    "titleEncoded": "-Laundry-Peace-Media-War-Guerilla-Art-Installation",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "450b93cd-73d9-415e-9995-6e26c31215b8",
+                    "titles": [
+                        "Massachusetts Avenue Station"
+                    ],
+                    "collections": [
+                        "Massachusetts Bay Transportation Authority"
+                    ],
+                    "artists": [
+                        "Bruce Taylor"
+                    ],
+                    "address": {
+                        "address": "380 Massachusetts Avenue",
+                        "zip": "02118",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "e35eac7911786932f21978f31beba4c5",
+                            "title": "Massachusetts Avenue Station",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:32.624",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2ef18976ff977c7a42371e115567f19b",
+                            "title": "Massachusetts Avenue Station",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:32.33",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "288497bde763ef52916b31cfc0555289",
+                            "title": "Massachusetts Avenue Station",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:32.038",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "22f5c5024222729a8ad9c4f9f04b47e0",
+                            "title": "Massachusetts Avenue Station",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:31.713",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.08364,
+                        42.341958
+                    ],
+                    "currentLocation": "Massachusetts Avenue Station",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Bay-Transportation-Authority",
+                            "title": "Massachusetts Bay Transportation Authority",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "450b93cd",
+                    "titleEncoded": "Massachusetts-Avenue-Station",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "c1f79ecf-8291-4dab-ae45-7076d98f4642",
+                    "titles": [
+                        "Schwerpunkt"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Ralph Helmick"
+                    ],
+                    "address": {
+                        "address": "43 Vassar St",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "62cd06eccfe0cfc6ed2279462d7c45b6",
+                            "title": "Schwerpunkt",
+                            "mediaType": "image",
+                            "updatedAt": "2020-05-06T16:48:29.356",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "42c871b50a27a834fd8b7aa77bbf1d74",
+                            "title": "Schwerpunkt",
+                            "mediaType": "image",
+                            "updatedAt": "2020-05-06T16:48:03.582",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fd792321e7593c103c0ead7ed044d264",
+                            "title": "Schwerpunkt",
+                            "mediaType": "image",
+                            "updatedAt": "2020-05-06T16:46:59.57",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c5eb6fa46cacfa1531a433e231a41274",
+                            "title": "Schwerpunkt",
+                            "mediaType": "image",
+                            "updatedAt": "2020-05-06T16:46:46.834",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "aa5603c3aad015a815c4f6ebfd71148c",
+                            "title": "Schwerpunkt",
+                            "mediaType": "image",
+                            "updatedAt": "2020-05-06T16:46:32.791",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0939546,
+                        42.3623063
+                    ],
+                    "currentLocation": "Massachusetts Institute of Technology, Brain and Cognitive Sciences Complex",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "c1f79ecf",
+                    "titleEncoded": "Schwerpunkt",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "246110ca-318d-49e8-aabf-e3d8cb287c4a",
+                    "titles": [
+                        "MIT Chapel"
+                    ],
+                    "collections": [
+                        "Massachusetts Institute of Technology"
+                    ],
+                    "artists": [
+                        "Eero Saarinen"
+                    ],
+                    "address": {
+                        "address": "48 Massachusetts Ave",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "6e96cb8ef89576bad93652bf7f3cde06",
+                            "title": "MIT Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-25T15:56:17.218",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "80e00aef63069eb300019067a36e65be",
+                            "title": "MIT Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-25T15:56:14.331",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2c31368adfc9596ff6b8519a09f2af39",
+                            "title": "MIT Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-25T15:55:38.356",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4fb7b69d823fa0b55c1db48652ab8011",
+                            "title": "MIT Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-25T15:54:52.278",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.09411344232814,
+                        42.35882289170188
+                    ],
+                    "currentLocation": "MIT Campus, Building W15",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-Institute-of-Technology",
+                            "title": "Massachusetts Institute of Technology",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "246110ca",
+                    "titleEncoded": "MIT-Chapel",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "62c907f6-fc01-47d5-83f8-e02feb624077",
+                    "titles": [
+                        "First Chair"
+                    ],
+                    "collections": [
+                        "Fenway Civic Association"
+                    ],
+                    "artists": [
+                        "Jacob Kulin"
+                    ],
+                    "address": {
+                        "address": "39 Edgerly Rd",
+                        "zip": "2115",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a8e7822a5f2d3e3a91aac4f1ebc6b985",
+                            "title": "First Chair",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T20:27:14.831",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7e8ade8c4995c49d465d704fd0d3deca",
+                            "title": "First Chair",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T20:27:13.061",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1135540355ecf12e1258ab9e55c14d10",
+                            "title": "First Chair",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T20:27:11.251",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "3f18adc69450b7905bb3ba504ba81923",
+                            "title": "First Chair",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T20:27:09.207",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "83f79a352a2d13f1787fa8a5705620cb",
+                            "title": "First Chair",
+                            "mediaType": "image",
+                            "updatedAt": "2023-01-23T20:27:06.885",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "47dda829345d5830d5f6b2ecb4b8e013",
+                            "title": "First Chair Video",
+                            "mediaType": "embeddedVideo",
+                            "updatedAt": "2023-01-23T20:27:00.748",
+                            "externalUrl": "https://vimeo.com/391041487",
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.087719,
+                        42.344994
+                    ],
+                    "currentLocation": "Symphony Community Park",
+                    "collectionDetails": [
+                        {
+                            "id": "Fenway-Civic-Association",
+                            "title": "Fenway Civic Association",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "62c907f6",
+                    "titleEncoded": "First-Chair",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "18a8bce7-319e-4781-b6a5-2dd75db5f332",
+                    "titles": [
+                        "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                        "Fenway PaintBox"
+                    ],
+                    "collections": [
+                        "Boston Art Commission, City of Boston, MA"
+                    ],
+                    "artists": [
+                        "Eddie Bruckner"
+                    ],
+                    "address": {
+                        "address": "Boylston St. and Yawkey Way",
+                        "zip": "02215",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "f0719f3558ee5de2451d0ecf16798756",
+                            "title": "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:45:44.542",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "793643a49976700f8fd62b9759aec1e2",
+                            "title": "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:45:44.169",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9f614113b22b618b234364ce5bc2b86b",
+                            "title": "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:45:43.683",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "793643a49976700f8fd62b9759aec1e2",
+                            "title": "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:45:43.392",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e8a5e1de8e705a0e565cb9cc1ff8d692",
+                            "title": "Fenway PaintBox at Yawkey Way & Boylston St., Boston",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:45:43.091",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.097992,
+                        42.344614
+                    ],
+                    "currentLocation": "Boylston St. and Yawkey Way",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Art-Commission--City-of-Boston--MA",
+                            "title": "Boston Art Commission, City of Boston, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "18a8bce7",
+                    "titleEncoded": "Fenway-PaintBox-at-Yawkey-Way-Boylston-St-Boston",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f9bde298-ac03-46b2-885e-995a0bfc0611",
+                    "titles": [
+                        "Elemental"
+                    ],
+                    "collections": [
+                        "Museum of Fine Arts, Boston"
+                    ],
+                    "artists": [
+                        "Hilary Zelson"
+                    ],
+                    "address": {
+                        "address": "465 Huntington Ave",
+                        "zip": "02115",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "2e82280cff0641d49246cff26088efa0",
+                            "title": "Elemental",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:07.399",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "83c58801156f0ad500e480238088b2e3",
+                            "title": "Elemental",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:07.107",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7ce5e858db6750d004f15af355752ae2",
+                            "title": "Elemental",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:06.803",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "585023dde75550cfcdab75166749a919",
+                            "title": "Elemental",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:06.31",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0749dc705a80f521085cdc8122936216",
+                            "title": "Elemental",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:05.963",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.093314,
+                        42.338697
+                    ],
+                    "currentLocation": "Museum of Fine Arts, Boston, Linde Family Wing for Contemporary Art",
+                    "collectionDetails": [
+                        {
+                            "id": "Museum-of-Fine-Arts--Boston",
+                            "title": "Museum of Fine Arts, Boston",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f9bde298",
+                    "titleEncoded": "Elemental",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f042ff0a-5821-42e1-81e9-eabac7d16bc5",
+                    "titles": [
+                        "Town Green"
+                    ],
+                    "collections": [
+                        "Cambridge Arts Council"
+                    ],
+                    "artists": [
+                        "Mike Glier"
+                    ],
+                    "address": {
+                        "address": "344 Broadway",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "35a97dce3f813181011405961133eb6e",
+                            "title": "Town Green",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:09:13.846",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c738896f536832fdce2d119c0262ade7",
+                            "title": "Town Green",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:09:13.56",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0a415324a239f68bf71103fafde2f51e",
+                            "title": "Town Green",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:09:13.269",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "81453ae4b93aa5cecb1b991e80eb8df2",
+                            "title": "Town Green",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:09:12.946",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e713426c7f4d6df286d44d25cd4fa81b",
+                            "title": "Town Green",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:09:12.542",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.103188,
+                        42.370167
+                    ],
+                    "currentLocation": "Cambridge City Hall Annex",
+                    "collectionDetails": [
+                        {
+                            "id": "Cambridge-Arts-Council",
+                            "title": "Cambridge Arts Council",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f042ff0a",
+                    "titleEncoded": "Town-Green",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "5cb118a9-dfe6-410e-8b7b-ae0eab616e73",
+                    "titles": [
+                        "Personal Home Biospheres"
+                    ],
+                    "collections": [
+                        "Cambridge Arts Council"
+                    ],
+                    "artists": [
+                        "Vaughn Bell"
+                    ],
+                    "address": {
+                        "address": "344 Broadway",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "f313034e2856a85804302495eed44080",
+                            "title": "Personal Home Biospheres",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:56:01.837",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c58c14550c134d695df3fa69cdaaa78a",
+                            "title": "Personal Home Biospheres",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:56:01.429",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.10357,
+                        42.37033
+                    ],
+                    "currentLocation": "Cambridge Arts Council Gallery",
+                    "collectionDetails": [
+                        {
+                            "id": "Cambridge-Arts-Council",
+                            "title": "Cambridge Arts Council",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "5cb118a9",
+                    "titleEncoded": "Personal-Home-Biospheres",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "85d5b152-ede0-4488-8528-3cffa86cfff2",
+                    "titles": [
+                        "MIT Commission"
+                    ],
+                    "collections": [
+                        "MITIMCo (MIT Investment Management Company)"
+                    ],
+                    "artists": [
+                        "Peter Bradley Cohen"
+                    ],
+                    "address": {
+                        "address": "730 Main Street",
+                        "zip": "02139",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a8e38ce885ecdc27ffef9261c1440468",
+                            "title": "MIT Commission",
+                            "mediaType": "image",
+                            "updatedAt": "2023-03-29T21:02:36.745",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ab9504accd7ae3d56f0c4c88d60d9b0a",
+                            "title": "MIT Commission",
+                            "mediaType": "image",
+                            "updatedAt": "2023-03-29T21:02:23.373",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "58d42d2901078129f27e15b79a9cd585",
+                            "title": "MIT Commission",
+                            "mediaType": "image",
+                            "updatedAt": "2023-03-29T21:02:11.295",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8c58b63639371d285bc3ced965e73c2f",
+                            "title": "MIT Commission",
+                            "mediaType": "image",
+                            "updatedAt": "2023-03-29T21:02:00.05",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7bd3f11a809492f03c543f5ddb8c3cbc",
+                            "title": "MIT Commission",
+                            "mediaType": "image",
+                            "updatedAt": "2023-03-29T21:01:47.297",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.10521788765686,
+                        42.36614419301665
+                    ],
+                    "currentLocation": "730 Main Street, Cambridge",
+                    "collectionDetails": [
+                        {
+                            "id": "MITIMCo--MIT-Investment-Management-Company-",
+                            "title": "MITIMCo (MIT Investment Management Company)",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "85d5b152",
+                    "titleEncoded": "MIT-Commission",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "1ab77de5-6cf4-41f4-9e3c-7f4f14ba3940",
+                    "titles": [
+                        "Roxbury Rhapsody"
+                    ],
+                    "collections": [
+                        "Boston Art Commission, City of Boston, MA"
+                    ],
+                    "artists": [
+                        "Napoleon Jones-Henderson"
+                    ],
+                    "address": {
+                        "address": "2300 Washington St",
+                        "zip": "02119",
+                        "city": "Roxbury",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "3e7da06c361fdbbd7656cc5c581536ab",
+                            "title": "Roxbury Rhapsody",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:37:57.903",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a3fc3af7919c45123fd264dffde22f67",
+                            "title": "Roxbury Rhapsody",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:37:57.595",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d74df70353f5d5330449bc35bf4be05c",
+                            "title": "Roxbury Rhapsody",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:37:57.251",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "485a2daaaf9dfe59317e27796b22f337",
+                            "title": "Roxbury Rhapsody",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:37:56.883",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b885982ec0750ec37dbb4abbcca1108e",
+                            "title": "Roxbury Rhapsody",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:37:56.52",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.084024,
+                        42.330325
+                    ],
+                    "currentLocation": "Boston Public Schools District office - work located on ground floor wall in atrium",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Art-Commission--City-of-Boston--MA",
+                            "title": "Boston Art Commission, City of Boston, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "1ab77de5",
+                    "titleEncoded": "Roxbury-Rhapsody",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "98593835-0fdc-4ef9-96d4-030f0ae4ad2f",
+                    "titles": [
+                        "Public Trust"
+                    ],
+                    "collections": [
+                        "Now and There, Inc."
+                    ],
+                    "artists": [
+                        "Paul Ramirez Jonas"
+                    ],
+                    "address": {
+                        "address": "Dudley St & Malcolm X Blvd",
+                        "zip": "02119",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "b9eeee3bee61cf9f10b5f55e33eda721",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:37.119",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "608bd71560f92f36f0cbb59abccf607d",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:36.825",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f977b8d62fa384214b2a264eb803969d",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:36.535",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "59e28b1ca980542d60991564de9236f8",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:36.238",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9147dc61a4c97637aef650505de14195",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:35.865",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d4e9e0f47b822e65bdd49b1cdb5c14e0",
+                            "title": "Public Trust",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:35.383",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.085056,
+                        42.328954
+                    ],
+                    "currentLocation": "Dudley St and Malcolm X Blvd",
+                    "collectionDetails": [
+                        {
+                            "id": "Now-and-There--Inc-",
+                            "title": "Now and There, Inc.",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "98593835",
+                    "titleEncoded": "Public-Trust",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "90c16de5-f534-4a8c-be14-aede2cb7fd5e",
+                    "titles": [
+                        "This Is A Long Distance Call",
+                        "Part of the Phone Art Box project"
+                    ],
+                    "collections": [
+                        "City of Somerville, MA"
+                    ],
+                    "artists": [
+                        "Rachel Mello"
+                    ],
+                    "address": {
+                        "address": "49 Highland Avenue",
+                        "zip": "02143",
+                        "city": "Somerville",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a5040a19591ee886269da6c253942515",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:45.817",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a5040a19591ee886269da6c253942515",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:45.484",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "224039a02885bc991e9abf35ce424019",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:45.196",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "224039a02885bc991e9abf35ce424019",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:44.908",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "87a8babb58d01b4a41c2cab667ede403",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:44.621",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "87a8babb58d01b4a41c2cab667ede403",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:44.328",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "897b8a8017006822d720671f626fbadd",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:43.994",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "897b8a8017006822d720671f626fbadd",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:43.566",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0417a0491df541f8b5e77519ada05682",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:43.268",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0417a0491df541f8b5e77519ada05682",
+                            "title": "This Is A Long Distance Call",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:05:42.979",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0948635,
+                        42.3854712
+                    ],
+                    "currentLocation": "Phone Art Box",
+                    "collectionDetails": [
+                        {
+                            "id": "City-of-Somerville--MA",
+                            "title": "City of Somerville, MA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "90c16de5",
+                    "titleEncoded": "This-Is-A-Long-Distance-Call",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "0396c7cf-5e6a-4998-b5fe-7f07c02f6af7",
+                    "titles": [
+                        "Reflex"
+                    ],
+                    "collections": [
+                        "Jacksonville International Airport"
+                    ],
+                    "artists": [
+                        "Tim Murdoch"
+                    ],
+                    "address": {
+                        "address": "582 Huntington Ave.",
+                        "zip": "2115",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "92cb4cf12e2a7ce5161856a8ac7b80d1",
+                            "title": "Reflex",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:56.825",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9d9c86497e2fd3330076caf6670344b7",
+                            "title": "Reflex",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:56.489",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8a329ae8c473c34232d1527abd04f490",
+                            "title": "Reflex",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:56.125",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e685cdc00ee68a33f5d7ed75e9f7be65",
+                            "title": "Reflex",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:55.794",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6d4141dab9cecb320e5ef672a7f911ee",
+                            "title": "Reflex",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:55.476",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0979198,
+                        42.3366802
+                    ],
+                    "currentLocation": "Massachusetts College of Art and Design, Spoon Cafe",
+                    "collectionDetails": [
+                        {
+                            "id": "Jacksonville-International-Airport",
+                            "title": "Jacksonville International Airport",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "0396c7cf",
+                    "titleEncoded": "Reflex",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "2fc1e637-bd39-4070-8496-b95dc0c85479",
+                    "titles": [
+                        "LifeLines"
+                    ],
+                    "collections": [
+                        "Massachusetts College of Art and Design"
+                    ],
+                    "artists": [
+                        "Tim Murdoch"
+                    ],
+                    "address": {
+                        "address": "621 Huntington Ave.",
+                        "zip": "02115",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "bb69c3912d50d251e4d6b18f9f70eb15",
+                            "title": "LifeLines",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:15.631",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "748cb32c6d0547bedc028adc191c77cf",
+                            "title": "LifeLines",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:15.306",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0848e8d0c9d1d34cd98d8a39416e7f3a",
+                            "title": "LifeLines",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:14.977",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b1634e9897ce251769930cab99d78c82",
+                            "title": "LifeLines",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:14.65",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4fbc4ed75379482d535085b466428f00",
+                            "title": "LifeLines",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:22:14.364",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.0991548,
+                        42.3374359
+                    ],
+                    "currentLocation": "Massachusetts College of Art and Design Kennedy Building, Campus Center",
+                    "collectionDetails": [
+                        {
+                            "id": "Massachusetts-College-of-Art-and-Design",
+                            "title": "Massachusetts College of Art and Design",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "2fc1e637",
+                    "titleEncoded": "LifeLines",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "dbb25b1b-ff21-48c1-8109-8e19a1e51815",
+                    "titles": [
+                        "Rainbow Rooster"
+                    ],
+                    "collections": [
+                        "Cambridge Ellis School"
+                    ],
+                    "artists": [
+                        "Hilary Zelson"
+                    ],
+                    "address": {
+                        "address": "80 Trowbridge St",
+                        "zip": "02138",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "58880d1937bc82d14a499bd634e9ce9e",
+                            "title": "Rainbow Rooster",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:08.632",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fa449bf2f7cf6669b05ba5bab25318df",
+                            "title": "Rainbow Rooster",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:08.27",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "952cebe788456489651a554e088f19d2",
+                            "title": "Rainbow Rooster",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:07.98",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bd842b51aa4da601624daa226a5c84b1",
+                            "title": "Rainbow Rooster",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:32:07.687",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.109937,
+                        42.375367
+                    ],
+                    "currentLocation": "Cambridge Ellis School",
+                    "collectionDetails": [
+                        {
+                            "id": "Cambridge-Ellis-School",
+                            "title": "Cambridge Ellis School",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "dbb25b1b",
+                    "titleEncoded": "Rainbow-Rooster",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "761491e4-7eee-4539-adcb-7c1a0efe859c",
+                    "titles": [
+                        "Deep Wounds"
+                    ],
+                    "collections": [
+                        "Office for the Arts at Harvard"
+                    ],
+                    "artists": [
+                        "Brian Knep"
+                    ],
+                    "address": {
+                        "address": "45 Quincy Street",
+                        "zip": "02138",
+                        "city": "Cambridge",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "9bb6e63ec06b0dfe95ba94d7700bef10",
+                            "title": "Deep Wounds",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:52:58.518",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9e9f09ef22c2189d8753f7e517274031",
+                            "title": "Deep Wounds",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:52:58.209",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f91aaf96bb82c1cfeb3ae5048ad1a2d4",
+                            "title": "Deep Wounds",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:52:57.814",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "27966e65730e1c567338c00b89a37c93",
+                            "title": "Deep Wounds",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:52:57.453",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5f9485b1214ae9b68c6e83138259a281",
+                            "title": "Deep Wounds",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:52:57.161",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.114234,
+                        42.376082
+                    ],
+                    "currentLocation": "Harvard University",
+                    "collectionDetails": [
+                        {
+                            "id": "Office-for-the-Arts-at-Harvard",
+                            "title": "Office for the Arts at Harvard",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "761491e4",
+                    "titleEncoded": "Deep-Wounds",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "8e3a6f65-4e3b-4a3b-af38-4d067d9af406",
+                    "titles": [
+                        "Digital DNA"
+                    ],
+                    "collections": [
+                        "Harvard Business School",
+                        "Palo Alto Public Art Commission"
+                    ],
+                    "artists": [
+                        "Adriana Varella"
+                    ],
+                    "address": {
+                        "address": "in front of Harvard Business School",
+                        "zip": "02163",
+                        "city": "Boston",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "8ae3377e031fca459213806f6f1a2698",
+                            "title": "Digital DNA",
+                            "mediaType": "image",
+                            "updatedAt": "2021-06-16T16:02:38.568",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.1226133,
+                        42.3655474
+                    ],
+                    "currentLocation": "Harvard Business School",
+                    "collectionDetails": [
+                        {
+                            "id": "Harvard-Business-School",
+                            "title": "Harvard Business School",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        },
+                        {
+                            "id": "Palo-Alto-Public-Art-Commission",
+                            "title": "Palo Alto Public Art Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "8e3a6f65",
+                    "titleEncoded": "Digital-DNA",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f8c7dc12-53ac-4180-9be5-8e3ea3471441",
+                    "titles": [
+                        "Alex's Place"
+                    ],
+                    "collections": [
+                        "Tufts University"
+                    ],
+                    "artists": [
+                        "Jackie Ferrara",
+                        "M. Paul Friedberg"
+                    ],
+                    "address": {
+                        "address": "35 Professors Row, Tufts University",
+                        "zip": "02115",
+                        "city": "Medford",
+                        "country": "USA",
+                        "state": "Massachusetts",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "1c4435be80a9505e105ab2eb85965311",
+                            "title": "Alex's Place",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:01:05.305",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "91a103f400cac794e827a8eba1eb41f7",
+                            "title": "Alex's Place",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:01:04.938",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f410ab4e258cc76e22dffe91d8416507",
+                            "title": "Alex's Place",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:01:04.633",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "10d75d2ddc66c419f1a2d5ed5af0ed7c",
+                            "title": "Alex's Place",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:01:04.13",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8272f30cd561872f4a98b33735343d61",
+                            "title": "Alex's Place",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:01:03.792",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -71.119247,
+                        42.40575
+                    ],
+                    "currentLocation": "Tufts University, Tisch Library rooftop",
+                    "collectionDetails": [
+                        {
+                            "id": "Tufts-University",
+                            "title": "Tufts University",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f8c7dc12",
+                    "titleEncoded": "Alex-s-Place",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                }
+            ],
+            "meta": {
+                "totalItems": 40,
+                "totalPages": 1,
+                "itemCount": 40,
+                "currentPage": 1,
+                "itemsPerPage": 150,
+                "hasMore": false,
+                "__typename": "SearchMeta"
+            },
+            "__typename": "SearchArtsResult"
+        }
+    }
+}

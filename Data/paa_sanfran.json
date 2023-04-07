@@ -1,0 +1,2959 @@
+{
+    "data": {
+        "searchArts": {
+            "items": [
+                {
+                    "id": "71475002-c689-4b90-94e6-5e923e959c07",
+                    "titles": [
+                        "Exultadagio"
+                    ],
+                    "collections": [
+                        "San Francisco Conservatory of Music"
+                    ],
+                    "artists": [
+                        "Daniel Winterich"
+                    ],
+                    "address": {
+                        "address": "50 Oak St",
+                        "zip": "94102",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "2e2b63089cfbf20e934c8c4f7bea39eb",
+                            "title": "Exultadagio",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:12:38.603",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "151dcb8b1b2d1b82a589b5d91062614b",
+                            "title": "Exultadagio",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:08:48.422",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "24ad34deeb54950baf6841f676df682b",
+                            "title": "Exultadagio",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:08:48.123",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "174ae49bcd8b6a19c30b160c80938856",
+                            "title": "Exultadagio",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:08:47.688",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6e46b27d5ad133b1ff8766ed31a41150",
+                            "title": "Exultadagio",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:08:46.953",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.420155,
+                        37.775312
+                    ],
+                    "currentLocation": "San Francisco Conservatory of Music",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Conservatory-of-Music",
+                            "title": "San Francisco Conservatory of Music",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "71475002",
+                    "titleEncoded": "Exultadagio",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "a5004352-cd04-48b8-8446-7449e9a04ba8",
+                    "titles": [
+                        "Screen"
+                    ],
+                    "collections": [
+                        "Mercy Housing California"
+                    ],
+                    "artists": [
+                        "Ball-Nogues Studio"
+                    ],
+                    "address": {
+                        "address": "1390 Mission St",
+                        "zip": "94103",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "90a21262be842bda2ccaf47420c9ea50",
+                            "title": "Screen",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:39.625",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bf958e607ab9032879282781ef90c27a",
+                            "title": "Screen",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:39.33",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5e378304b0060f8aee3338d632d68053",
+                            "title": "Screen",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:39.042",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "3f0373b63fecc80d82e67c1ed0992b21",
+                            "title": "Screen",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:38.755",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f2f7b49b7a82722cff2355a0b80f5ad0",
+                            "title": "Screen",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:38.437",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.415696,
+                        37.775454
+                    ],
+                    "currentLocation": "Center at 10th and Jessie Streets",
+                    "collectionDetails": [
+                        {
+                            "id": "Mercy-Housing-California",
+                            "title": "Mercy Housing California",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "a5004352",
+                    "titleEncoded": "Screen",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "382d8303-ad4b-4481-b528-016a1e8ebc08",
+                    "titles": [
+                        "Golden Gateway"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Seyed Alavi"
+                    ],
+                    "address": {
+                        "address": "300 Octavia St",
+                        "zip": "94102",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "93b276307cbfd172685b58514ef844ff",
+                            "title": "Golden Gateway",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:37.775",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "49aa9f2b4ee1bfe27712bd9de37bc0a2",
+                            "title": "Golden Gateway",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:37.447",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9d722b61465cad7fed93f83b8c26f75d",
+                            "title": "Golden Gateway",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:37.157",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7879096634b17149a601d3f4b031bf22",
+                            "title": "Golden Gateway",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:54:36.868",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.424084,
+                        37.775251
+                    ],
+                    "currentLocation": "Patricia's Green, Hayes Valley Neighborhood",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "382d8303",
+                    "titleEncoded": "Golden-Gateway",
+                    "metaInfo": {
+                        "status": "temp",
+                        "mapView": "offview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "8b85b00b-273a-4ea5-b9b7-72ecaf5005ca",
+                    "titles": [
+                        "Cloud"
+                    ],
+                    "collections": [
+                        "Mercy Housing California"
+                    ],
+                    "artists": [
+                        "Ball-Nogues Studio"
+                    ],
+                    "address": {
+                        "address": "66 Ninth Street",
+                        "zip": "94103",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a846d7f69ffd44cdebe90e42b50eaf79",
+                            "title": "Cloud",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:41.201",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f455aebec9f4cbe3b62e89d878377059",
+                            "title": "Cloud",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:40.88",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bb199843467539071d9f8591f774b897",
+                            "title": "Cloud",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:40.503",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "754a4da37fe8aa0313fdc09099b0c213",
+                            "title": "Cloud",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:40.211",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5ca363d38da90ba189152eabbbf99113",
+                            "title": "Cloud",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:39.92",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.415245,
+                        37.776644
+                    ],
+                    "currentLocation": "Edith Witt Senior Community",
+                    "collectionDetails": [
+                        {
+                            "id": "Mercy-Housing-California",
+                            "title": "Mercy Housing California",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "8b85b00b",
+                    "titleEncoded": "Cloud",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "79e684e8-e74f-473e-961e-df0ab9df1389",
+                    "titles": [
+                        "San Francisco Civic Center Post Office: Humming With Life",
+                        "Hummingbird Mural"
+                    ],
+                    "collections": [
+                        "North of Market/Tenderloin Community Benefit District"
+                    ],
+                    "artists": [
+                        "Johanna Poethig"
+                    ],
+                    "address": {
+                        "address": "101 Hyde St.",
+                        "zip": "94102",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c221e13f943ad5e61aa40807d19736a8",
+                            "title": "San Francisco Civic Center Post Office: Humming With Life",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T19:58:28.85",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4972654dfa7faa6a8d7dbfbe873666be",
+                            "title": "San Francisco Civic Center Post Office: Humming With Life",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T19:58:26.318",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8305096b89495bb8e4ff7f4d3562a288",
+                            "title": "San Francisco Civic Center Post Office: Humming With Life",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T19:58:24.514",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4781e14425e7311c280952723c0db458",
+                            "title": "San Francisco Civic Center Post Office: Humming With Life",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T19:58:22.704",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8e057273280e6a3374be2ed1ad0e5b4c",
+                            "title": "San Francisco Civic Center Post Office: Humming With Life",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:18:53.56",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.4156876,
+                        37.781825
+                    ],
+                    "currentLocation": "San Francisco Civic Center Post Office",
+                    "collectionDetails": [
+                        {
+                            "id": "North-of-Market-Tenderloin-Community-Benefit-District",
+                            "title": "North of Market/Tenderloin Community Benefit District",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "79e684e8",
+                    "titleEncoded": "San-Francisco-Civic-Center-Post-Office-Humming-With-Life",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "ee9e1e2e-bf16-48eb-9869-5ceefbeeb8b7",
+                    "titles": [
+                        "Don't Nod"
+                    ],
+                    "collections": [
+                        "US General Services Administration"
+                    ],
+                    "artists": [
+                        "Ed Ruscha"
+                    ],
+                    "address": {
+                        "address": "90 7th St",
+                        "zip": "94103",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c7e449710c6dd64ff496ac56872a158b",
+                            "title": "Don't Nod",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:13:02.174",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.411236,
+                        37.779448
+                    ],
+                    "currentLocation": "San Francisco Federal Building",
+                    "collectionDetails": [
+                        {
+                            "id": "US-General-Services-Administration",
+                            "title": "US General Services Administration",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "ee9e1e2e",
+                    "titleEncoded": "Don-t-Nod",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "473502fb-9c47-4a02-b36b-b6308e1f1910",
+                    "titles": [
+                        "Veil"
+                    ],
+                    "collections": [
+                        "Mercy Housing California"
+                    ],
+                    "artists": [
+                        "Ball-Nogues Studio"
+                    ],
+                    "address": {
+                        "address": "Stair Tower, 1390 Mission Street",
+                        "zip": "94103",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "7170105dca8c1b5631dd14155a044194",
+                            "title": "Veil",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:08:49.876",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "08f7027e60f99ff5268b09ad0abc7b8f",
+                            "title": "Veil",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:08:47.784",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f5abe45d77062b35751720a5dd6ac48a",
+                            "title": "Veil",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:08:45.557",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4a39bd7bd510e24e6988cc29a3ee883d",
+                            "title": "Veil",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:08:43.247",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b8269051bafb9596ece491531db9f374",
+                            "title": "Veil",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:37.743",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.41056,
+                        37.779518
+                    ],
+                    "currentLocation": "10th and Mission Family Housing",
+                    "collectionDetails": [
+                        {
+                            "id": "Mercy-Housing-California",
+                            "title": "Mercy Housing California",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "473502fb",
+                    "titleEncoded": "Veil",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "284063f9-c17a-4017-8367-7ee2acbf41af",
+                    "titles": [
+                        "Intertwined"
+                    ],
+                    "collections": [
+                        "Glide Economic Development Corporation"
+                    ],
+                    "artists": [
+                        "Johanna Poethig"
+                    ],
+                    "address": {
+                        "address": "149 Mason Street",
+                        "zip": "94102",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a3a2b9dc178a4bc77ef777a1e9345296",
+                            "title": "Intertwined",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:10:14.414",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e9cd98c669be685ceef7b344ead2a700",
+                            "title": "Intertwined",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:10:12.173",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1e1f791c80cefc0d4276ce576e0f7580",
+                            "title": "Intertwined",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-29T20:10:10.33",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "599c1db916a041452385c2bbecccdb2d",
+                            "title": "Intertwined",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:45:01.632",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "eac2f875ee6fec07063488b825b26699",
+                            "title": "Intertwined",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:45:01.283",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.409465,
+                        37.785055
+                    ],
+                    "currentLocation": "Mason Street Studios",
+                    "collectionDetails": [
+                        {
+                            "id": "Glide-Economic-Development-Corporation",
+                            "title": "Glide Economic Development Corporation",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "284063f9",
+                    "titleEncoded": "Intertwined",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "6232e8a9-6c2c-45e1-a818-a12335c5c93c",
+                    "titles": [
+                        "Still Beating"
+                    ],
+                    "collections": [
+                        "San Francisco General Hospital"
+                    ],
+                    "artists": [
+                        "Michael J. Kruzich"
+                    ],
+                    "address": {
+                        "address": "Powell and Geary St.",
+                        "zip": "94102",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "510d4e0c32f4d24a6632e8456fdc25b3",
+                            "title": "Still Beating",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:26:22.998",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4d99a5d928fa59de9d44f5e78b4a4a0e",
+                            "title": "Still Beating",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:26:22.709",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "898b91ab8c0e9f3df3b270693b312d28",
+                            "title": "Still Beating",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:26:22.418",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d045cbe9047006e8ba9c3ffc83ad3533",
+                            "title": "Still Beating",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:26:22.129",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.408122,
+                        37.787611
+                    ],
+                    "currentLocation": "Union Square",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-General-Hospital",
+                            "title": "San Francisco General Hospital",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "6232e8a9",
+                    "titleEncoded": "Still-Beating",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "cf17013d-c6da-4ab5-8908-22edaeb5ccea",
+                    "titles": [
+                        "Graced With Light"
+                    ],
+                    "collections": [
+                        "Grace Cathedral"
+                    ],
+                    "artists": [
+                        "Anne Patterson"
+                    ],
+                    "address": {
+                        "address": "1100 California St",
+                        "zip": "94108",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c2fe359e2076ae88419d32b022fa7d60",
+                            "title": "Graced With Light",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:59.427",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e67809697efd3ad33280927b4698817d",
+                            "title": "Graced With Light",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:59.137",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2f30c7204f3033598ef24e9056f6ba33",
+                            "title": "Graced With Light",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:58.785",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e36c1c73c0244f40c7c0754d4cf7314b",
+                            "title": "Graced With Light",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:58.493",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f26a8f820a115ce4fb23ad8f26a954e2",
+                            "title": "Graced With Light",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:02:58.154",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.4130261,
+                        37.7919185
+                    ],
+                    "currentLocation": "Grace Cathedral",
+                    "collectionDetails": [
+                        {
+                            "id": "Grace-Cathedral",
+                            "title": "Grace Cathedral",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "cf17013d",
+                    "titleEncoded": "Graced-With-Light",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "43dcdafe-942a-4bdc-8631-3f010b7dc0a6",
+                    "titles": [
+                        "On Their Own"
+                    ],
+                    "collections": [
+                        "AT&T"
+                    ],
+                    "artists": [
+                        "Louis Francis DeMartino"
+                    ],
+                    "address": {
+                        "address": "3rd & Harrison",
+                        "zip": "94107",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "b73b3c6e00ee25190ce0ac8bc541258f",
+                            "title": "On Their Own",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:11.205",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e06a58e6bcf7f8ea4f303e3f2756a1c4",
+                            "title": "On Their Own",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:10.915",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6f7df03d0eebd1819fb79e8b1d353a8d",
+                            "title": "On Their Own",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:10.629",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "43a47a9fa06367ae89e4aa8167566316",
+                            "title": "On Their Own",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:10.332",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.39741,
+                        37.782566
+                    ],
+                    "currentLocation": "Pacific Bell Telephone Headquarters",
+                    "collectionDetails": [
+                        {
+                            "id": "AT-T",
+                            "title": "AT&T",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "43dcdafe",
+                    "titleEncoded": "On-Their-Own",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "5ee74c88-0e9c-4e4d-84e3-f91eaa61b985",
+                    "titles": [
+                        "Distrazione"
+                    ],
+                    "collections": [
+                        "Boston Properties"
+                    ],
+                    "artists": [
+                        "Dominic Panziera",
+                        "Daniela Garofalo"
+                    ],
+                    "address": {
+                        "address": "680 Folsom St.",
+                        "zip": "94107",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "5d7aff3034db80bc0d73179dc3201190",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:58:41.528",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d2093ec50d75caa1e0bd8465d41c39c1",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:57:34.591",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2acea4f947277422a5f5ca3c3e3d9a5c",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:57:08.084",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bdd1046e1b4a4a340cfc41e6a1092bad",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:56:47.521",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a1445ab04f4c0879c254b19d0424fec4",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:56:01.565",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6ecae280a7ccef02bd55e03d29b7868e",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:55:33.87",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e9a7a70898e52976ecf3c4482e7843a1",
+                            "title": "Distrazione",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-17T20:54:58.97",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.398458,
+                        37.784627
+                    ],
+                    "currentLocation": "680 Folsom St., San Francisco",
+                    "collectionDetails": [
+                        {
+                            "id": "Boston-Properties",
+                            "title": "Boston Properties",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "5ee74c88",
+                    "titleEncoded": "Distrazione",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "c90293f8-e1e4-4617-afa4-d28a136d10ff",
+                    "titles": [
+                        "Monarch"
+                    ],
+                    "collections": [
+                        "Kaiser Permanente"
+                    ],
+                    "artists": [
+                        "Cliff Garten"
+                    ],
+                    "address": {
+                        "address": "1600 Owens St",
+                        "zip": "94107",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "2e2d2b74e5f875e636a6798ff54e207f",
+                            "title": "Monarch",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:04:44.226",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "84298e09e0e3f0c9919fdbb900819439",
+                            "title": "Monarch",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:04:40.526",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "396fc6b33a21afbae4635c5d169b9ad3",
+                            "title": "Monarch",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:56.45",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a249eeea6d4ae283b0edf57f93ffedd0",
+                            "title": "Monarch",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:55.773",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "55af1491dfd9f2d11020bc9a8686d356",
+                            "title": "Monarch",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:44:55.288",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.39524,
+                        37.768314
+                    ],
+                    "currentLocation": "Kaiser Permanente San Francisco Mission Bay Medical Offices",
+                    "collectionDetails": [
+                        {
+                            "id": "Kaiser-Permanente",
+                            "title": "Kaiser Permanente",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "c90293f8",
+                    "titleEncoded": "Monarch",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "e59e37fe-103d-4847-819d-ccf59cab4e3a",
+                    "titles": [
+                        "Redbud Redux Suite"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Stephen Galloway"
+                    ],
+                    "address": {
+                        "address": "1001 Potrero Ave",
+                        "zip": "94110",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "abe05c47f9ee02c39cc3f07ea961784f",
+                            "title": "Redbud Redux Suite",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:05.32",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6949864b416236076575fabdeabe3938",
+                            "title": "Redbud Redux Suite",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:05.023",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "726c8ee0875c6819e2459956db60de3c",
+                            "title": "Redbud Redux Suite",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:04.713",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8b4937b9c73a4206c6965719fcc931d5",
+                            "title": "Redbud Redux Suite",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:04.421",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.406608,
+                        37.756171
+                    ],
+                    "currentLocation": "San Francisco General Hospital - Acute Care Center Medical and Surgery",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "e59e37fe",
+                    "titleEncoded": "Redbud-Redux-Suite",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "1e86bec5-7ad9-4d28-a873-343cd32afa3b",
+                    "titles": [
+                        "Desktop Gargoyles"
+                    ],
+                    "collections": [
+                        "Bateman-Elchler Corporation, San Francisco CA"
+                    ],
+                    "artists": [
+                        "Dan Snyder"
+                    ],
+                    "address": {
+                        "address": "555 California St",
+                        "zip": "94104",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "ec42c82769d717df7e4fa2036c19d8d4",
+                            "title": "Desktop Gargoyles",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-21T15:21:41.717",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b01c7759b8c6610b28d64db8af555aef",
+                            "title": "Desktop Gargoyles",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-21T15:21:31.759",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.40369755914095,
+                        37.79225984658426
+                    ],
+                    "currentLocation": "555 California St, San Francisco",
+                    "collectionDetails": [
+                        {
+                            "id": "Bateman-Elchler-Corporation--San-Francisco-CA",
+                            "title": "Bateman-Elchler Corporation, San Francisco CA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "1e86bec5",
+                    "titleEncoded": "Desktop-Gargoyles",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "1975505b-8509-491e-bb31-e04e2d319d68",
+                    "titles": [
+                        "Ethereal Bodies 8"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Cliff Garten"
+                    ],
+                    "address": {
+                        "address": "1001 Potrero Ave",
+                        "zip": "94110",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "e8ac97f105dc2b18be351b0aeac9bf0c",
+                            "title": "Ethereal Bodies 8",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:40:49.462",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6a24b072be3156bf1aad41f3a34adf30",
+                            "title": "Ethereal Bodies 8",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:40:49.138",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2b96bea2b0fdefd0ab136c1342de16f5",
+                            "title": "Ethereal Bodies 8",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:40:48.752",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9e93dc9ec4c4de6d2c5da1de8e55c9e3",
+                            "title": "Ethereal Bodies 8",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:40:48.464",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "83eb5098b2208ee81c1c493d16aef300",
+                            "title": "Ethereal Bodies 8",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:40:48.176",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.4044432,
+                        37.7558047
+                    ],
+                    "currentLocation": "1001 Potrero Ave",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "1975505b",
+                    "titleEncoded": "Ethereal-Bodies-8",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "51058c7d-e085-4476-8619-af92c5f80fbd",
+                    "titles": [
+                        "La Llorona's Sacred Waters"
+                    ],
+                    "collections": [
+                        "Las Trenzas Latina Student and Alumnae Organization of UC Berkeley"
+                    ],
+                    "artists": [
+                        "Juana Alicia"
+                    ],
+                    "address": {
+                        "address": "2794 24th Street",
+                        "zip": "94110",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d3821816adfa16637ca4d45230df02c1",
+                            "title": "La Llorona's Sacred Waters",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:54.461",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0c7630c75a0b43677cc41d8d324f9cdb",
+                            "title": "La Llorona's Sacred Waters",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:54.105",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "31fee29ffb31acc93374293a1a7727af",
+                            "title": "La Llorona's Sacred Waters",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:53.725",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fe41fb8517657e19ccfbe0e667e8bf10",
+                            "title": "La Llorona's Sacred Waters",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:53.295",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1f7c575a58b42eeba30e250490dc797f",
+                            "title": "La Llorona's Sacred Waters",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:27:52.917",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.408094,
+                        37.75333
+                    ],
+                    "currentLocation": "York and 24th Streets",
+                    "collectionDetails": [
+                        {
+                            "id": "Las-Trenzas-Latina-Student-and-Alumnae-Organization-of-UC-Berkeley",
+                            "title": "Las Trenzas Latina Student and Alumnae Organization of UC Berkeley",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "51058c7d",
+                    "titleEncoded": "La-Llorona-s-Sacred-Waters",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "4c6275cd-ef6e-4fe3-a8e7-3ae23d31487b",
+                    "titles": [
+                        "Raygun Gothic Rocketship"
+                    ],
+                    "collections": [
+                        "Black Rock Arts Foundation"
+                    ],
+                    "artists": [
+                        "Sean Orlando",
+                        "David Shulman",
+                        "Five Ton Crane Art Collective",
+                        "Nathaniel Taylor"
+                    ],
+                    "address": {
+                        "address": "Pier 14",
+                        "zip": "94105",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "52d8270fa7a52e9c0f99b7aa30dfb214",
+                            "title": "Raygun Gothic Rocketship",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:37:02.428",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "612d92cd5b73da833f2737333796d773",
+                            "title": "Raygun Gothic Rocketship",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:37:02.068",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "23285edf9c524f0ea61468531a5aade8",
+                            "title": "Raygun Gothic Rocketship",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:37:01.714",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "27de53672143871f4493dc9c78c8c529",
+                            "title": "Raygun Gothic Rocketship",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:37:01.414",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6d1c7e96c11e86d788026725f2a1b4c5",
+                            "title": "Raygun Gothic Rocketship",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:37:01.124",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.394444,
+                        37.788667
+                    ],
+                    "currentLocation": "Pier 14, Embarcadero, San Francisco, between Claes Oldenburg's Cupid's Span and the San Francisco Ferry Building",
+                    "collectionDetails": [
+                        {
+                            "id": "Black-Rock-Arts-Foundation",
+                            "title": "Black Rock Arts Foundation",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "4c6275cd",
+                    "titleEncoded": "Raygun-Gothic-Rocketship",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "149bb5a4-bb9e-42f4-a3e7-60cdc05fe596",
+                    "titles": [
+                        "KNOT #58SF"
+                    ],
+                    "collections": [
+                        "Equity Residential"
+                    ],
+                    "artists": [
+                        "Damon Hyldreth"
+                    ],
+                    "address": {
+                        "address": "340 Fremont St.",
+                        "zip": "94105",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "5ec6dab64e3363aac6f4d6572cd0089c",
+                            "title": "KNOT #58SF",
+                            "mediaType": "image",
+                            "updatedAt": "2022-05-23T18:02:02.285",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.393188,
+                        37.787197
+                    ],
+                    "currentLocation": "340 Fremont St, San Francisco",
+                    "collectionDetails": [
+                        {
+                            "id": "Equity-Residential",
+                            "title": "Equity Residential",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "149bb5a4",
+                    "titleEncoded": "KNOT-58SF",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "80baa115-202f-48f4-86ec-e33ca49723b3",
+                    "titles": [
+                        "Muni Metro Extension (MMX) Shelters and Windscreens"
+                    ],
+                    "collections": [
+                        "San Francisco Municipal Transportation Agency"
+                    ],
+                    "artists": [
+                        "Anna Valentina Murch",
+                        "Owen Lang"
+                    ],
+                    "address": {
+                        "address": "South Embarcadero and King Street",
+                        "zip": "94158",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "3d1d9a273b75f71fc40b27bfa7b4a8a3",
+                            "title": "Muni Metro Extension (MMX) Shelters and Windscreens",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:17.522",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ae29cee29f2a0b5d3dd494a5a6eae4da",
+                            "title": "Muni Metro Extension (MMX) Shelters and Windscreens",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:17.249",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "700375802323bc0d9c45447b0a99475b",
+                            "title": "Muni Metro Extension (MMX) Shelters and Windscreens",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:16.964",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "46b32939cdb5e58583bbf16ceee5d282",
+                            "title": "Muni Metro Extension (MMX) Shelters and Windscreens",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:16.585",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.38955,
+                        37.779943
+                    ],
+                    "currentLocation": "South Embarcadero and King Street bus shelter",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Municipal-Transportation-Agency",
+                            "title": "San Francisco Municipal Transportation Agency",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "80baa115",
+                    "titleEncoded": "Muni-Metro-Extension-MMX-Shelters-and-Windscreens",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "e6a0db35-abce-422d-9c5c-1849eab9897d",
+                    "titles": [
+                        "CA Mission"
+                    ],
+                    "collections": [
+                        "Millennium Partners"
+                    ],
+                    "artists": [
+                        "Yoram Wolberger"
+                    ],
+                    "address": {
+                        "address": "301 Mission St.",
+                        "zip": "94105",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "2f1bce31d2f3a7ba5769054c53c02ff7",
+                            "title": "CA Mission",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:17:07.824",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e336413ec2bc2efe94125c3f8ac913c1",
+                            "title": "CA Mission",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:17:07.498",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1138a4eb37665baf46a81d4eb42922e2",
+                            "title": "CA Mission",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:17:07.226",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c78c22950d1c41019ffd485f4eb12b81",
+                            "title": "CA Mission",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:17:06.943",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "6cdfc0cc70e2ed5428d6415945e1e634",
+                            "title": "CA Mission",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:17:06.617",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.3959223,
+                        37.7909665
+                    ],
+                    "currentLocation": "Millennium Tower, Mission Street",
+                    "collectionDetails": [
+                        {
+                            "id": "Millennium-Partners",
+                            "title": "Millennium Partners",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "e6a0db35",
+                    "titleEncoded": "CA-Mission",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "27ff30db-5233-4fe3-83c4-df0c898b25e6",
+                    "titles": [
+                        "Tides"
+                    ],
+                    "collections": [
+                        "University of San Francisco"
+                    ],
+                    "artists": [
+                        "Yoko Kubrick"
+                    ],
+                    "address": {
+                        "address": "2802 Turk Blvd",
+                        "zip": "84118",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "391a274176fde9118882412070010578",
+                            "title": "Tides",
+                            "mediaType": "image",
+                            "updatedAt": "2021-05-11T21:44:38.992",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "db147514038894b8c0d088f5acf77fe8",
+                            "title": "Tides",
+                            "mediaType": "image",
+                            "updatedAt": "2021-05-11T21:44:36.974",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7f700fd3717f5d0e2b25f4aff5212cd8",
+                            "title": "Tides",
+                            "mediaType": "image",
+                            "updatedAt": "2021-05-11T21:44:34.71",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7b12a1ffad29c6964740572cef28a119",
+                            "title": "Tides",
+                            "mediaType": "image",
+                            "updatedAt": "2021-05-11T21:44:31.954",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9a00e47e3c8806e61b2c1aa655005669",
+                            "title": "Tides",
+                            "mediaType": "image",
+                            "updatedAt": "2021-05-11T15:07:02.263",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.451859,
+                        37.778353
+                    ],
+                    "currentLocation": "Lone Mountain Steps",
+                    "collectionDetails": [
+                        {
+                            "id": "University-of-San-Francisco",
+                            "title": "University of San Francisco",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "27ff30db",
+                    "titleEncoded": "Tides",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "2ed1d9d9-ff78-4fe3-a9e6-cb2ceeecff5b",
+                    "titles": [
+                        "The Nomadic Labyrinth"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Paz de la Calzada"
+                    ],
+                    "address": {
+                        "address": "650 Parker Ave",
+                        "zip": "94118",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "99d30c2ccc7ac9e1f899a04bfaae2032",
+                            "title": "The Nomadic Labyrinth",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:34:03.953",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2696a94b49f3c64751eb67865b0462e8",
+                            "title": "The Nomadic Labyrinth",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:34:03.018",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e278d461d8781950dd1e3b28d9ee7954",
+                            "title": "The Nomadic Labyrinth",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:34:02.197",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cad4f74105bee4ac650b5dc929ff8e1e",
+                            "title": "The Nomadic Labyrinth",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:34:01.455",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "414bd2753880fd355eaf13b23eaede1a",
+                            "title": "The Nomadic Labyrinth",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:34:00.479",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.453109,
+                        37.776296
+                    ],
+                    "currentLocation": "University of San Francisco, Gleeson Plaza, Saint Ignatius Church",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "2ed1d9d9",
+                    "titleEncoded": "The-Nomadic-Labyrinth",
+                    "metaInfo": {
+                        "status": "temp",
+                        "mapView": "offview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "d125dc4b-79f9-4517-831d-6aa65073d256",
+                    "titles": [
+                        "Flux Density"
+                    ],
+                    "collections": [
+                        "Frisson Restaurant"
+                    ],
+                    "artists": [
+                        "Catherine Wagner"
+                    ],
+                    "address": {
+                        "address": "244 Jackson St",
+                        "zip": "94111",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "c1e476baa6dfba5b293c980015a90db9",
+                            "title": "Flux Density",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:14:48.714",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9273c654c10155e364fbd9561b86d0ae",
+                            "title": "Flux Density",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:19.149",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.400031,
+                        37.796865
+                    ],
+                    "currentLocation": "Frisson Restaurant",
+                    "collectionDetails": [
+                        {
+                            "id": "Frisson-Restaurant",
+                            "title": "Frisson Restaurant",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "d125dc4b",
+                    "titleEncoded": "Flux-Density",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "45ec1474-7710-4a1a-9641-de7b5eb56e5c",
+                    "titles": [
+                        "Cupid's Span"
+                    ],
+                    "collections": [
+                        "D&DF Foundation, San Francisco"
+                    ],
+                    "artists": [
+                        "Claes Oldenburg",
+                        "Coosje van Bruggen"
+                    ],
+                    "address": {
+                        "address": "The Embarcadero & Folsom Street",
+                        "zip": "94117",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "5b22ee0f13789c02add0781c867e3e1e",
+                            "title": "Cupid's Span",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-19T19:56:02.442",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2a307e3fc4176491874c416a421c0c74",
+                            "title": "Cupid's Span",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-19T19:55:58.693",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "937958046a2915473750606a9b38c96a",
+                            "title": "Cupid's Span",
+                            "mediaType": "image",
+                            "updatedAt": "2022-07-19T19:55:53.853",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.3902145767062,
+                        37.792244612966634
+                    ],
+                    "currentLocation": "Rincon Park",
+                    "collectionDetails": [
+                        {
+                            "id": "D-DF-Foundation--San-Francisco",
+                            "title": "D&DF Foundation, San Francisco",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "45ec1474",
+                    "titleEncoded": "Cupid-s-Span",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "6703ff0f-196d-474c-8231-1339ebdeb2c1",
+                    "titles": [
+                        "Bow"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Walter Hood"
+                    ],
+                    "address": {
+                        "address": "399 The Embarcadero",
+                        "zip": "94105",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "1ba493c6d48d6f842e842db035553f63",
+                            "title": "Bow",
+                            "mediaType": "image",
+                            "updatedAt": "2022-12-01T16:28:06.428",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.388437,
+                        37.790339
+                    ],
+                    "currentLocation": "adjacent to the historic Fire Station #35 and the San Francisco Bay and Bridge",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "6703ff0f",
+                    "titleEncoded": "Bow",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "82e7a5b3-8a5d-418e-906e-59e7e8d29afe",
+                    "titles": [
+                        "Cell Wall II"
+                    ],
+                    "collections": [
+                        "University of California"
+                    ],
+                    "artists": [
+                        "Catherine Wagner"
+                    ],
+                    "address": {
+                        "address": "505 Parnassus Ave",
+                        "zip": "94131",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "f901e5af37bfabfe2e377d177dc3ad4b",
+                            "title": "Cell Wall II",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:17:41.646",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "700f56268bb3012ec25860c23b74199e",
+                            "title": "Cell Wall II",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:14.004",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.457729,
+                        37.76355
+                    ],
+                    "currentLocation": "University of California, School of Medicine, Saunders Court",
+                    "collectionDetails": [
+                        {
+                            "id": "University-of-California",
+                            "title": "University of California",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "82e7a5b3",
+                    "titleEncoded": "Cell-Wall-II",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "037bc237-1ece-4a57-a676-6ba648a1a4cb",
+                    "titles": [
+                        "Wave Organ"
+                    ],
+                    "collections": [
+                        "Exploratorium"
+                    ],
+                    "artists": [
+                        "Peter Richards",
+                        "George Gonzales"
+                    ],
+                    "address": {
+                        "address": "1 Yacht Rd",
+                        "zip": "94123",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "082f7477d22a56c3de2e5f7e83d1e3b3",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2020-12-21T18:05:04.204",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "04f45ed86459dc961be94e97733a5d98",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:53:55.001",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d9d850f03d60c8a78dea8de452ec5d09",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:53:54.681",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2c4508f366da16ff0a5cedd3409364c9",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:53:54.321",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c3c8eb72dd3f19dbe25f3ae35ce068d3",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:53:54.036",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1d39b4604817958a6b97846f8b3a59bb",
+                            "title": "Wave Organ",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:53:53.733",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.442483,
+                        37.807982
+                    ],
+                    "currentLocation": "Marina Yacht Harbor",
+                    "collectionDetails": [
+                        {
+                            "id": "Exploratorium",
+                            "title": "Exploratorium",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "037bc237",
+                    "titleEncoded": "Wave-Organ",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "5ec067bd-f537-42ad-b303-e542c9f4e44a",
+                    "titles": [
+                        "Language of the Birds"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Brian Goggin",
+                        "Dorka Keehn"
+                    ],
+                    "address": {
+                        "address": "604 San Francisco Bicycle Route 10",
+                        "zip": "94117",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "2b3e9571205712cedead4d9acb8a643c",
+                            "title": "Language of the Birds",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-09T21:48:28.106",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "54b96f0206af6fd7334cf792eb8c98f3",
+                            "title": "Language of the Birds",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-09T21:47:05.225",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.46769357874854,
+                        37.78731807232985
+                    ],
+                    "currentLocation": " Broadway & Columbus Avenue",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "5ec067bd",
+                    "titleEncoded": "Language-of-the-Birds",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "1fb0bc34-27ff-4091-8496-9eddec097682",
+                    "titles": [
+                        "Ribbons"
+                    ],
+                    "collections": [
+                        "US General Services Administration"
+                    ],
+                    "artists": [
+                        "Cliff Garten"
+                    ],
+                    "address": {
+                        "address": "50 UN Plaza",
+                        "zip": "94116",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "93d879c4529bb6adb2eb7323acb6c74b",
+                            "title": "Ribbons",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:12:57.453",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cb5c5e3cf7085e312f18ca283d7cb2ae",
+                            "title": "Ribbons",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:12:57.165",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "15769354537ada84d8977a6595208eaa",
+                            "title": "Ribbons",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T17:12:56.876",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.459649,
+                        37.7489495
+                    ],
+                    "currentLocation": "Federal Office Building",
+                    "collectionDetails": [
+                        {
+                            "id": "US-General-Services-Administration",
+                            "title": "US General Services Administration",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "1fb0bc34",
+                    "titleEncoded": "Ribbons",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f7a9ac56-2e99-4152-aa95-4a0689df18bd",
+                    "titles": [
+                        "Community History Quilts"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "William Rhodes"
+                    ],
+                    "address": {
+                        "address": "2403 Keith St",
+                        "zip": "94124",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "711c5c4e6531265e08fe0a41af765e2c",
+                            "title": "Community History Quilts",
+                            "mediaType": "image",
+                            "updatedAt": "2022-12-01T16:42:09.109",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.3951101,
+                        37.7257235
+                    ],
+                    "currentLocation": "Southeast Health Center",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f7a9ac56",
+                    "titleEncoded": "Community-History-Quilts",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "e5ca4593-69ce-4a0a-93ff-c8ce85d9d076",
+                    "titles": [
+                        "Philosopher's Way"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Peter Richards",
+                        "Susan Schwartzenberg",
+                        "Pease Press",
+                        "Gonzalez Masonry"
+                    ],
+                    "address": {
+                        "address": "Mansell St & John F Shelley Dr",
+                        "zip": "94134",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "142d2a0efe15512f401dabadd8cfcaf3",
+                            "title": "Philosopher's Way",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:45.198",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7ddb9b03e4654c58be082e8e0fe86961",
+                            "title": "Philosopher's Way",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:44.336",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "bfe5db9758b0f95741abb19ea0c915db",
+                            "title": "Philosopher's Way",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:43.556",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "51639f384e0598cf96dd05c5150c6c6c",
+                            "title": "Philosopher's Way",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:42.961",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2a6715769a744e03a5e6f3d4b2c6730d",
+                            "title": "Philosopher's Way",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:42.302",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.41852,
+                        37.71878
+                    ],
+                    "currentLocation": "John McLaren Park",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "e5ca4593",
+                    "titleEncoded": "Philosopher-s-Way",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "4dcbca69-bd20-4656-837b-6c9bb824b11b",
+                    "titles": [
+                        "Swimmers' Waves"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Catherine Wagner"
+                    ],
+                    "address": {
+                        "address": "2699 19th Ave",
+                        "zip": "94116",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d644c61998e5cfefbe6587bc6ce119b8",
+                            "title": "Swimmers - Waves",
+                            "mediaType": "image",
+                            "updatedAt": "2022-11-30T22:00:55.714",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ea0b57678071bf897cd9ed2853420d2f",
+                            "title": "Swimmers - Waves",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:30:13.353",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.475301,
+                        37.737463
+                    ],
+                    "currentLocation": "Sava Pool",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "4dcbca69",
+                    "titleEncoded": "Swimmers-Waves",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "cd33c07f-7f05-4133-9944-c47f6e9c86c7",
+                    "titles": [
+                        "Nautical Swing"
+                    ],
+                    "collections": [
+                        "City and County of San Francisco, CA"
+                    ],
+                    "artists": [
+                        "Matthew Geller",
+                        "John Grant"
+                    ],
+                    "address": {
+                        "address": "11 Innes Court",
+                        "zip": "94124",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "3d8d76c569ce0f999a9bb23cc88fb5bf",
+                            "title": "Nautical Swing",
+                            "mediaType": "image",
+                            "updatedAt": "2022-06-02T21:01:14.795",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "067374d8c9e7a511b9d1b07042bbceb6",
+                            "title": "Nautical Swing",
+                            "mediaType": "image",
+                            "updatedAt": "2022-06-02T21:01:03.946",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2e2672dc4a44e3b21f5df5ba17ec265b",
+                            "title": "Nautical Swing",
+                            "mediaType": "image",
+                            "updatedAt": "2022-06-02T21:00:56.824",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.368375,
+                        37.727376
+                    ],
+                    "currentLocation": "Hunter's Point Shipyard",
+                    "collectionDetails": [
+                        {
+                            "id": "City-and-County-of-San-Francisco--CA",
+                            "title": "City and County of San Francisco, CA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "cd33c07f",
+                    "titleEncoded": "Nautical-Swing",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "2832f5cb-db88-4b76-bd6a-9c0c64033b2a",
+                    "titles": [
+                        "Constellation Verses",
+                        "Hibernian Stained Glass"
+                    ],
+                    "collections": [
+                        "The Japan Information & Cultural Center (JICC)"
+                    ],
+                    "artists": [
+                        "Aisla Islava"
+                    ],
+                    "address": {
+                        "address": "101 Horne Avenue",
+                        "zip": "94124",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "6316274e5f4138ab615659c68bc04f33",
+                            "title": "Constellation Verses",
+                            "mediaType": "image",
+                            "updatedAt": "2020-11-20T20:34:00.459",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.3680005,
+                        37.7270839
+                    ],
+                    "currentLocation": "101 Horne Avenue, San Francisco",
+                    "collectionDetails": [
+                        {
+                            "id": "The-Japan-Information---Cultural-Center--JICC-",
+                            "title": "The Japan Information & Cultural Center (JICC)",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "2832f5cb",
+                    "titleEncoded": "Constellation-Verses",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "c49ab0f6-0317-4766-b83d-5725b2f287ec",
+                    "titles": [
+                        "Full Circles",
+                        "Full Circle"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "Mark Grieve",
+                        "Ilana Spector"
+                    ],
+                    "address": {
+                        "address": "201 Leland Avenue",
+                        "zip": "94134",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "1c865c5ce3e36649aa4f7ff94ee831e5",
+                            "title": "Full Circles",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:06.475",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "0c0eb6d3cd268b77411db9684e1ea5b1",
+                            "title": "Full Circles",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:05.532",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "146e28ad077a0a190f583ee9cc2c3342",
+                            "title": "Full Circles",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:04.872",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7c895d12f5e8ab99b26d6cba2b162a2a",
+                            "title": "Full Circles",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:04.207",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ab130794804c2eaef9b8030a2dcbd1b1",
+                            "title": "Full Circles",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:19:03.508",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.4077641,
+                        37.7126218
+                    ],
+                    "currentLocation": "Visitacion Valley Library",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "c49ab0f6",
+                    "titleEncoded": "Full-Circles",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "f81f5ad1-7343-4b18-a0a2-5b06d8daf5b4",
+                    "titles": [
+                        "Words Fly Away"
+                    ],
+                    "collections": [
+                        "San Francisco Arts Commission"
+                    ],
+                    "artists": [
+                        "John Wehrle"
+                    ],
+                    "address": {
+                        "address": "345 Randolph Street",
+                        "zip": "94132",
+                        "city": "San Francisco",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "a8b2803b3e07545d51dfe05e10810c3d",
+                            "title": "Words Fly Away",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:08.717",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "703a6576caa31e854d70dc19d4f925bd",
+                            "title": "Words Fly Away",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:08.14",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "a925268353bb79c9b03c2be1ee869dfa",
+                            "title": "Words Fly Away",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:07.777",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1199c6c039c636e1c5e94edfc4a01285",
+                            "title": "Words Fly Away",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:07.475",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "04b022dc5ce7a0a0581a379b70d3e2c6",
+                            "title": "Words Fly Away",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:07.165",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.46596,
+                        37.71427
+                    ],
+                    "currentLocation": "Ocean View Branch Library",
+                    "collectionDetails": [
+                        {
+                            "id": "San-Francisco-Arts-Commission",
+                            "title": "San Francisco Arts Commission",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "f81f5ad1",
+                    "titleEncoded": "Words-Fly-Away",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "db2c71fc-48ec-42ae-bcda-ab819425efcb",
+                    "titles": [
+                        "Sculptural Installation @ Colma Chapel"
+                    ],
+                    "collections": [
+                        "The Italian Cemetery, City of Colma, CA"
+                    ],
+                    "artists": [
+                        "Arthur Stern"
+                    ],
+                    "address": {
+                        "address": "540 F St",
+                        "zip": "94014",
+                        "city": "Colma",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "b89675d21bd3f0409abff958f6731d6f",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:26.88",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b89675d21bd3f0409abff958f6731d6f",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:26.512",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c0e087252f4ed2108c26395156aa6fb9",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:26.156",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c0e087252f4ed2108c26395156aa6fb9",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:25.679",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5bf8b8c5cd5f822de5d6548d73beed46",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:25.244",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "5bf8b8c5cd5f822de5d6548d73beed46",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:24.955",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2df3a75467bc6a82d7b8a729b0af63b3",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:24.66",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2df3a75467bc6a82d7b8a729b0af63b3",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:24.3",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "278c90e30a5d33697ff44cae271d1f1e",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:23.934",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "278c90e30a5d33697ff44cae271d1f1e",
+                            "title": "Sculptural Installation @ Colma Chapel",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:57:23.58",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.459871,
+                        37.682539
+                    ],
+                    "currentLocation": "Italian Cemetery Chapel",
+                    "collectionDetails": [
+                        {
+                            "id": "The-Italian-Cemetery--City-of-Colma--CA",
+                            "title": "The Italian Cemetery, City of Colma, CA",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "db2c71fc",
+                    "titleEncoded": "Sculptural-Installation-Colma-Chapel",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "43543ee9-963d-46e4-8085-b8186c72caf5",
+                    "titles": [
+                        "Welcome Terrace East & West"
+                    ],
+                    "collections": [
+                        "Headlands Center of the Arts"
+                    ],
+                    "artists": [
+                        "Ball-Nogues Studio"
+                    ],
+                    "address": {
+                        "address": "944 Fort Barry",
+                        "zip": "94965",
+                        "city": "Sausalito",
+                        "country": "USA",
+                        "state": "California",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "e36d4b4efb9cbc1e3f86a4d62a2183af",
+                            "title": "Welcome Terrace East & West",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-21T17:38:40.455",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e2329b91be11cff48e10086132e5b8f0",
+                            "title": "Welcome Terrace East & West",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-21T17:37:56.245",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8d3081ae1661575ede4a6cc8262a879f",
+                            "title": "Welcome Terrace East & West",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-21T17:37:39.33",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "fde8c852fb7f10de5d47fd8032e0127b",
+                            "title": "Welcome Terrace East & West",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-21T17:37:22.903",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -122.529183,
+                        37.823508
+                    ],
+                    "currentLocation": "Headlands Center of the Arts",
+                    "collectionDetails": [
+                        {
+                            "id": "Headlands-Center-of-the-Arts",
+                            "title": "Headlands Center of the Arts",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "43543ee9",
+                    "titleEncoded": "Welcome-Terrace-East-West",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                }
+            ],
+            "meta": {
+                "totalItems": 39,
+                "totalPages": 1,
+                "itemCount": 39,
+                "currentPage": 1,
+                "itemsPerPage": 150,
+                "hasMore": false,
+                "__typename": "SearchMeta"
+            },
+            "__typename": "SearchArtsResult"
+        }
+    }
+}

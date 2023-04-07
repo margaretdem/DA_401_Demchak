@@ -1,0 +1,1197 @@
+{
+    "data": {
+        "searchArts": {
+            "items": [
+                {
+                    "id": "17d9c848-dad3-4343-932b-efce68935fc2",
+                    "titles": [
+                        "Intersect"
+                    ],
+                    "collections": [
+                        "Huntington National Bank"
+                    ],
+                    "artists": [
+                        "Stephen Canneto"
+                    ],
+                    "address": {
+                        "address": "180 E Broad St #1",
+                        "zip": "43215",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "787a1303c6b7930c64a930b6049e8acf",
+                            "title": "Intersect",
+                            "mediaType": "image",
+                            "updatedAt": "2020-01-21T17:33:26.293",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "f49b9121d11f466c99657d46410da1de",
+                            "title": "Intersect",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:01.389",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c1513ff4345e0638fd64bf03dce2a787",
+                            "title": "Intersect",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:01.063",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "dba63cbe4101adf8f46dac0de3a34530",
+                            "title": "Intersect",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:00.635",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "1abd7a377c434dda30e6ec40cc90b632",
+                            "title": "Intersect",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T15:58:00.346",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.995805,
+                        39.962816
+                    ],
+                    "currentLocation": "Huntington National Bank Plaza",
+                    "collectionDetails": [
+                        {
+                            "id": "Huntington-National-Bank",
+                            "title": "Huntington National Bank",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "17d9c848",
+                    "titleEncoded": "Intersect",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "4f4bed58-917f-49bf-afe0-5e1d0dfd635a",
+                    "titles": [
+                        "Crossroads of Commerce",
+                        "Crossroads"
+                    ],
+                    "collections": [
+                        "Ohio Chamber of Commerce"
+                    ],
+                    "artists": [
+                        "Stephen Canneto"
+                    ],
+                    "address": {
+                        "address": "230 E. Town St.",
+                        "zip": "43215",
+                        "city": "Columbus, OH",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "ade0816acc2f44ea959df001883df146",
+                            "title": "Crossroads of Commerce",
+                            "mediaType": "image",
+                            "updatedAt": "2019-10-30T21:00:23.477",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ea816c6bca6b914940a565e56ec71c03",
+                            "title": "Crossroads of Commerce",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:18.082",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7a6cfcf9ddb4cc272400826e209c1f32",
+                            "title": "Crossroads of Commerce",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:17.792",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "76c45ca533cc971d43342dd7575e29c7",
+                            "title": "Crossroads of Commerce",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:17.499",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "58fbd8349b78f80a8ba745023d599370",
+                            "title": "Crossroads of Commerce",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:17.203",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.99395,
+                        39.95951
+                    ],
+                    "currentLocation": "Ohio Chamber of Commerce",
+                    "collectionDetails": [
+                        {
+                            "id": "Ohio-Chamber-of-Commerce",
+                            "title": "Ohio Chamber of Commerce",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "4f4bed58",
+                    "titleEncoded": "Crossroads-of-Commerce",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "a4b8c701-008b-44d0-8da5-09b710bb65c7",
+                    "titles": [
+                        "Recovery"
+                    ],
+                    "collections": [
+                        "Southeast Inc."
+                    ],
+                    "artists": [
+                        "Stephen Canneto"
+                    ],
+                    "address": {
+                        "address": "16 W Long St",
+                        "zip": "43215",
+                        "city": "Columbus, OH",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d0c578c0b6ecd33ba5cf86c92975af98",
+                            "title": "Recovery",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-21T22:18:00.845",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2cd5059a35615ef4b00209dcf4df8010",
+                            "title": "Recovery",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:02:01.611",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d959e5c72b0406026612310c10fc9c58",
+                            "title": "Recovery",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:02:01.311",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4aa6aca583a9864206ffee4e80178823",
+                            "title": "Recovery",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:02:01.021",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9c0534bbb34cd950a84248547f1acb30",
+                            "title": "Recovery",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:02:00.729",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -83.001402,
+                        39.964956
+                    ],
+                    "currentLocation": "Southeast Inc.",
+                    "collectionDetails": [
+                        {
+                            "id": "Southeast-Inc-",
+                            "title": "Southeast Inc.",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "a4b8c701",
+                    "titleEncoded": "Recovery",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "086dba55-84ed-466d-ab7d-6f16da6dd6af",
+                    "titles": [
+                        "ARK OF THE SUN AND THE MOON"
+                    ],
+                    "collections": [
+                        "City of Columbus, OH"
+                    ],
+                    "artists": [
+                        "Jon Barlow Hudson"
+                    ],
+                    "address": {
+                        "address": "300 E Broad St # 100",
+                        "zip": "43215",
+                        "city": "Columbus, OH",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "41f4496cd92260fa835de6eb4da6cb5f",
+                            "title": "ARK OF THE SUN AND THE MOON",
+                            "mediaType": "image",
+                            "updatedAt": "2022-08-08T17:38:37.562",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.99209157301735,
+                        39.96435953996912
+                    ],
+                    "currentLocation": "School Employees Retirement System of Ohio",
+                    "collectionDetails": [
+                        {
+                            "id": "City-of-Columbus--OH",
+                            "title": "City of Columbus, OH",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "086dba55",
+                    "titleEncoded": "ARK-OF-THE-SUN-AND-THE-MOON",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "3339135e-cbeb-461b-9741-76cc1c6bd309",
+                    "titles": [
+                        "Capitol Square Enhancements",
+                        "Capitol Crossroads Enhancements"
+                    ],
+                    "collections": [
+                        "Capital Crossroads SID (Special Improvement District)"
+                    ],
+                    "artists": [
+                        "John Soichi Sunami",
+                        "Darren Meyer"
+                    ],
+                    "address": {
+                        "address": "Capitol Square",
+                        "zip": "43215",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "17cdb6370a52a22d88f5ed5092a915a3",
+                            "title": "Capitol Square Enhancements",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:25.412",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "58c0bb5c984ac5de503f9117bcbe0e4b",
+                            "title": "Capitol Square Enhancements",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:25.125",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "ee3a77657e633d1cf1030c9a8cce935c",
+                            "title": "Capitol Square Enhancements",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:24.829",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "3afadef32ce1e91d139be860bebf8032",
+                            "title": "Capitol Square Enhancements",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:24.542",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "706df005bb8980822ac969130f20ee52",
+                            "title": "Capitol Square Enhancements",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:24.25",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -83.005803,
+                        39.965574
+                    ],
+                    "currentLocation": "Streets facing Capitol Square",
+                    "collectionDetails": [
+                        {
+                            "id": "Capital-Crossroads-SID--Special-Improvement-District-",
+                            "title": "Capital Crossroads SID (Special Improvement District)",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "3339135e",
+                    "titleEncoded": "Capitol-Square-Enhancements",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "7e8d1f44-8bca-43a7-a5f3-4a6af1f6aa8d",
+                    "titles": [
+                        "20th Anniversary of the Americans with Disabilities Act Mural",
+                        "ADA Mural"
+                    ],
+                    "collections": [
+                        "Vsa Ohio"
+                    ],
+                    "artists": [
+                        "Kong Ho",
+                        "13 Ohio artists with disability"
+                    ],
+                    "address": {
+                        "address": "1 Capitol Square",
+                        "zip": "43215",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "0d5780aa78144a92676bfce572109b09",
+                            "title": "20th Anniversary of the Americans with Disabilities Act Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:20:31.909",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "be88724f0f4ada9b5ae9b1968d6393ea",
+                            "title": "20th Anniversary of the Americans with Disabilities Act Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:20:31.613",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "7b10c5e9b497ac9a4f8d48f923947aed",
+                            "title": "20th Anniversary of the Americans with Disabilities Act Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:20:31.325",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "29f8e7cc047fad37c57eb5b9782a16c1",
+                            "title": "20th Anniversary of the Americans with Disabilities Act Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:20:31.036",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2a0f17d77a7f89541aa4f76c0c714f98",
+                            "title": "20th Anniversary of the Americans with Disabilities Act Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:20:30.748",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -83.005803,
+                        39.965574
+                    ],
+                    "currentLocation": "Ohio Statehouse",
+                    "collectionDetails": [
+                        {
+                            "id": "Vsa-Ohio",
+                            "title": "Vsa Ohio",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "7e8d1f44",
+                    "titleEncoded": "20th-Anniversary-of-the-Americans-with-Disabilities-Act-Mural",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "ffb3860c-a547-49a4-9aed-fe19f1f18708",
+                    "titles": [
+                        "Breath of Life / Columbus"
+                    ],
+                    "collections": [
+                        "Columbus Public Art 2012"
+                    ],
+                    "artists": [
+                        "Stuart Williams"
+                    ],
+                    "address": {
+                        "address": "333 West Broad Street",
+                        "zip": "43215",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "d87d3869ca0d847ddb48718c1dfeaf9b",
+                            "title": "Breath of Life / Columbus",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:15:03.149",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8ca94df7ce7b91801a6d93da77105a12",
+                            "title": "Breath of Life / Columbus",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:15:02.83",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9f3f0af145ac86dd2df5e7441b8ed2ba",
+                            "title": "Breath of Life / Columbus",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:15:02.491",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "76e8bfb5f449c9f905b7e19a04697fd5",
+                            "title": "Breath of Life / Columbus",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:15:02.144",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "52582bc4f491240dada243adefd6a5fb",
+                            "title": "Breath of Life / Columbus",
+                            "mediaType": "image",
+                            "updatedAt": "2019-04-05T15:15:01.823",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -83.0085809,
+                        39.9610598
+                    ],
+                    "currentLocation": "COSI (Center for Science and Industry), east facade",
+                    "collectionDetails": [
+                        {
+                            "id": "Columbus-Public-Art-2012",
+                            "title": "Columbus Public Art 2012",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "ffb3860c",
+                    "titleEncoded": "Breath-of-Life-Columbus",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "17f5bcbd-b5ef-45df-ac5e-076422883150",
+                    "titles": [
+                        "Journey"
+                    ],
+                    "collections": [
+                        "Andrews Architects"
+                    ],
+                    "artists": [
+                        "Mary Ellen Graham"
+                    ],
+                    "address": {
+                        "address": "1145 Olentagy River Rd.",
+                        "zip": "43212",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "642711a6ed6bb381dcdf5abfa9a3585b",
+                            "title": "Journey",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:25.577",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "723433ddb8b93b9d2afd8c359b70769f",
+                            "title": "Journey",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:25.211",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "07be6cb6bb54abc0b2a83ea051fe58fd",
+                            "title": "Journey",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:24.852",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "9a8d1c1ae90a8fe11a0d10ebb713ac9a",
+                            "title": "Journey",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:24.494",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "2d6bbd6ff4dc52cd8ee9c4fe130efb53",
+                            "title": "Journey",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:31:24.134",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -83.022635,
+                        39.984458
+                    ],
+                    "currentLocation": "The Ohio State University James Care, Stephanie Spielman Comprehensive Breast Center",
+                    "collectionDetails": [
+                        {
+                            "id": "Andrews-Architects",
+                            "title": "Andrews Architects",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "17f5bcbd",
+                    "titleEncoded": "Journey",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "e4b92756-c565-4ecb-be9d-10af5a61bf96",
+                    "titles": [
+                        "COTA Mobility Services Facility Mural",
+                        "COTA Street Mural"
+                    ],
+                    "collections": [
+                        "Central Ohio Transit Authority"
+                    ],
+                    "artists": [
+                        "John Soichi Sunami"
+                    ],
+                    "address": {
+                        "address": "1330 Fields Avenue",
+                        "zip": "43201",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "9e8885fc2a812feab8b6c9f3828cdd55",
+                            "title": "COTA Mobility Services Facility Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-18T22:54:11.444",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e76bf66403fb68e8acc29a13324f14b8",
+                            "title": "COTA Mobility Services Facility Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2019-11-18T22:53:50.43",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b137ef67fc66028c94399327f73a931e",
+                            "title": "COTA Mobility Services Facility Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:28.592",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e215a315c5f0a6d26fd334af1d4f6b5c",
+                            "title": "COTA Mobility Services Facility Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:28.262",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d0b65980b39bd87d959a6c4a3002ac9a",
+                            "title": "COTA Mobility Services Facility Mural",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:27.874",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.991756,
+                        39.990625
+                    ],
+                    "currentLocation": "Central Ohio Transit Authority Mobility Services Facility",
+                    "collectionDetails": [
+                        {
+                            "id": "Central-Ohio-Transit-Authority",
+                            "title": "Central Ohio Transit Authority",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "e4b92756",
+                    "titleEncoded": "COTA-Mobility-Services-Facility-Mural",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "1218d278-3422-461a-b172-ab3def99d643",
+                    "titles": [
+                        "NavStar"
+                    ],
+                    "collections": [
+                        "Franklin Park Conservatory and Botanical Gardens"
+                    ],
+                    "artists": [
+                        "Stephen Canneto"
+                    ],
+                    "address": {
+                        "address": "1777 E Broad St",
+                        "zip": "43203",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "4aa6c6050368c73b8aaa627b20115d59",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:03.639",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4aa6c6050368c73b8aaa627b20115d59",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:03.351",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c896243005549748b1755959b46740af",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:02.95",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c896243005549748b1755959b46740af",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:02.565",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "500db691c1509fcbbe938bb18161325b",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:02.265",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "500db691c1509fcbbe938bb18161325b",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:01.908",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d9d517beee64dae8f78fd37b8ae250b3",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:01.486",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d9d517beee64dae8f78fd37b8ae250b3",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:01.109",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "17884ba37f4e69aec640bc9a970f1cb4",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:00.744",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "17884ba37f4e69aec640bc9a970f1cb4",
+                            "title": "NavStar",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:00:00.453",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.953844,
+                        39.967588
+                    ],
+                    "currentLocation": "Franklin Park Conservatory",
+                    "collectionDetails": [
+                        {
+                            "id": "Franklin-Park-Conservatory-and-Botanical-Gardens",
+                            "title": "Franklin Park Conservatory and Botanical Gardens",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "1218d278",
+                    "titleEncoded": "NavStar",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "a9ae14bf-498b-4306-8139-1de6f6718f34",
+                    "titles": [
+                        "South Side IntroCenter",
+                        "IntroCenter"
+                    ],
+                    "collections": [
+                        "City of Columbus, OH"
+                    ],
+                    "artists": [
+                        "John Soichi Sunami"
+                    ],
+                    "address": {
+                        "address": "310 Innis Avenue",
+                        "zip": "43207",
+                        "city": "Columbus, OH",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "34cf66c48f6ad682aec1e7b033e20c3e",
+                            "title": "South Side IntroCenter",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:26.993",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "8b314aa7260c3380700891e777702ebb",
+                            "title": "South Side IntroCenter",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:26.696",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "e619730c8c786bfefb1e93fb5c442813",
+                            "title": "South Side IntroCenter",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:26.408",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "aa969043f9241751e83bf097dd46d355",
+                            "title": "South Side IntroCenter",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:26.05",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cc873877c68c73bb478836bc24c44959",
+                            "title": "South Side IntroCenter",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:25.705",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.987157,
+                        39.925973
+                    ],
+                    "currentLocation": "South Side Settlement House",
+                    "collectionDetails": [
+                        {
+                            "id": "City-of-Columbus--OH",
+                            "title": "City of Columbus, OH",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "a9ae14bf",
+                    "titleEncoded": "South-Side-IntroCenter",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "3e143b83-ef6e-45c3-9d2f-ac21f4296717",
+                    "titles": [
+                        "Livingston Streetcar District Gateway Sculpture",
+                        "Streetcar on Livingston"
+                    ],
+                    "collections": [
+                        "Neighborhood Design Center"
+                    ],
+                    "artists": [
+                        "John Soichi Sunami"
+                    ],
+                    "address": {
+                        "address": "Livingston Avenue and Nelson Road",
+                        "zip": "43205",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "58010328033866524f2e613782806a6d",
+                            "title": "Livingston Streetcar District Gateway Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:22.268",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "43418f553f864919ffc5d1a72aeb4fed",
+                            "title": "Livingston Streetcar District Gateway Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:21.975",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "d63f1d7e2e2ac7f306e7ad26d54a9350",
+                            "title": "Livingston Streetcar District Gateway Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:21.682",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c824580e0cced311b50ecf9bb698f28e",
+                            "title": "Livingston Streetcar District Gateway Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:21.393",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "c9d582f84e86b6073a3edef05a4a8392",
+                            "title": "Livingston Streetcar District Gateway Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:21.039",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.947319,
+                        39.948557
+                    ],
+                    "currentLocation": "The Norfolk Southern Railroad viaduct",
+                    "collectionDetails": [
+                        {
+                            "id": "Neighborhood-Design-Center",
+                            "title": "Neighborhood Design Center",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "3e143b83",
+                    "titleEncoded": "Livingston-Streetcar-District-Gateway-Sculpture",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "dde48620-dc4f-489b-ba2b-c055e94c7eb2",
+                    "titles": [
+                        "John R. Maloney Health and Wellness Center Sculpture",
+                        "Maloney South Side Health Center Sculpture"
+                    ],
+                    "collections": [
+                        "City of Columbus, OH"
+                    ],
+                    "artists": [
+                        "John Soichi Sunami"
+                    ],
+                    "address": {
+                        "address": "3781 S High St",
+                        "zip": "43207",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "cd9edaf75dcffcafceb6cef00c1374a6",
+                            "title": "John R. Maloney Health and Wellness Center Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:23.959",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "24aa0892aeb70e39f28911db5ff6ad6d",
+                            "title": "John R. Maloney Health and Wellness Center Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:23.594",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "87042048d18830cbacd8d370771811df",
+                            "title": "John R. Maloney Health and Wellness Center Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:23.223",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "af6975a98c4ea87200c34754d55a7f26",
+                            "title": "John R. Maloney Health and Wellness Center Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:22.853",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "cd242e8909b320cdad32fc7472b08584",
+                            "title": "John R. Maloney Health and Wellness Center Sculpture",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:07:22.562",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.999992,
+                        39.884509
+                    ],
+                    "currentLocation": "John R. Maloney Health and Wellness Center",
+                    "collectionDetails": [
+                        {
+                            "id": "City-of-Columbus--OH",
+                            "title": "City of Columbus, OH",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "dde48620",
+                    "titleEncoded": "John-R-Maloney-Health-and-Wellness-Center-Sculpture",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                },
+                {
+                    "id": "e43ef577-a384-4503-9d54-d293baca96c1",
+                    "titles": [
+                        "Sunwall Moonwall Murals"
+                    ],
+                    "collections": [
+                        "Clintonville Historical Society"
+                    ],
+                    "artists": [
+                        "Danielle Poling"
+                    ],
+                    "address": {
+                        "address": "800 E Cooke Rd",
+                        "zip": "43214",
+                        "city": "Columbus",
+                        "country": "USA",
+                        "state": "Ohio",
+                        "__typename": "ESArtObjectAddress"
+                    },
+                    "media": [
+                        {
+                            "source": "fb376635a45833523dd7774f1b8aa812",
+                            "title": "Sunwall Moonwall Murals",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:25:01.992",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "b64f2775cba0c0bce6275e31d89914af",
+                            "title": "Sunwall Moonwall Murals",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:25:01.682",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "af0df0e57cd8f146b6b3b77b1087e622",
+                            "title": "Sunwall Moonwall Murals",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:25:01.304",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "4086dc87a53f7177402683fa43b1303f",
+                            "title": "Sunwall Moonwall Murals",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:25:00.932",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        },
+                        {
+                            "source": "19a1ad3cfc4a6ecb3a6f766272eae367",
+                            "title": "Sunwall Moonwall Murals",
+                            "mediaType": "image",
+                            "updatedAt": "2018-12-10T16:25:00.596",
+                            "externalUrl": null,
+                            "__typename": "ESArtObjectMedia"
+                        }
+                    ],
+                    "geo": [
+                        -82.998923,
+                        40.046749
+                    ],
+                    "currentLocation": "Railroad underpass, next to I-71 highway on Cooke Road",
+                    "collectionDetails": [
+                        {
+                            "id": "Clintonville-Historical-Society",
+                            "title": "Clintonville Historical Society",
+                            "flags": null,
+                            "__typename": "ESCollectionDetails"
+                        }
+                    ],
+                    "appSlug": "e43ef577",
+                    "titleEncoded": "Sunwall-Moonwall-Murals",
+                    "metaInfo": {
+                        "status": "general",
+                        "mapView": "onview",
+                        "__typename": "ESArtObjectMeta"
+                    },
+                    "__typename": "ESSearchArtObject"
+                }
+            ],
+            "meta": {
+                "totalItems": 14,
+                "totalPages": 1,
+                "itemCount": 14,
+                "currentPage": 1,
+                "itemsPerPage": 150,
+                "hasMore": false,
+                "__typename": "SearchMeta"
+            },
+            "__typename": "SearchArtsResult"
+        }
+    }
+}
