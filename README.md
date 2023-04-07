@@ -9,4 +9,9 @@ This is the GitHub repository for my senior Data Analytics research. I have rese
 - Data cleaning and aggregation files
 - Report of study 
 
+- The preliminary folder contians data and analysis of the project in the first phase. The project direction changed slightly after phase 1. It also contians a data folder with the raw data used. 
+- The Data folder contains the raw data and cleaned datafiles for phase 2 of the project.
+
+
+
 This research was conducted in January 2023-May 2023
