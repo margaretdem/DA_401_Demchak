@@ -1,0 +1,838 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+setwd("~/Desktop/DA_401/NEA_grant_data")
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+library(stats)
+library(rms)
+
+boston_nea_public<-read.csv('boston_nea_public_keyword.csv')
+cbus_nea_public<-read.csv('cbus_nea_public_keyword.csv')
+dallas_nea_public<-read.csv('dallas_nea_public_keyword.csv')
+indy_nea_public<-read.csv('indy_nea_public_keyword.csv')
+nyc_nea_public<-read.csv('nyc_nea_public_keyword.csv')
+sanfran_nea_public<-read.csv('sanfran_nea_public_keyword.csv')
+```
+
+```{r}
+#glimpse(boston_nea_public)
+```
+
+
+```{r}
+boston_nea_rename <- boston_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+boston_nea_rename$grant_from_date <- as.Date(boston_nea_rename$grant_from_date)
+
+cbus_nea_rename <- cbus_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+cbus_nea_rename$grant_from_date <- as.Date(cbus_nea_rename$grant_from_date)
+
+dallas_nea_rename <- dallas_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+dallas_nea_rename$grant_from_date <- as.Date(dallas_nea_rename$grant_from_date)
+
+indy_nea_rename <- indy_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+indy_nea_rename$grant_from_date <- as.Date(indy_nea_rename$grant_from_date)
+
+nyc_nea_rename <- nyc_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+nyc_nea_rename$grant_from_date <- as.Date(nyc_nea_rename$grant_from_date)
+
+sanfran_nea_rename <- sanfran_nea_public %>%
+  rename(grant_from_date='Grant.From.Date')%>%
+  rename(grant_amount = 'Grant.Amount')%>%
+  rename(fiscal_year='Fiscal.Year')%>%
+  rename(field='Discipline...Field')%>%
+  rename(description='Project.Description')
+
+sanfran_nea_rename$grant_from_date <- as.Date(sanfran_nea_rename$grant_from_date)
+```
+
+
+```{r}
+reg_from_date<-lm(data=boston_nea_rename, grant_amount ~grant_from_date )
+summary(reg_from_date)
+
+reg_fiscal_year<-lm(data=boston_nea_rename, grant_amount ~fiscal_year )
+summary(reg_fiscal_year)
+
+reg_field<-lm(data=boston_nea_rename, grant_amount ~field )
+summary(reg_field)
+```
+
+```{r}
+boston_nea_rename%>%
+  ggplot(aes(grant_from_date,grant_amount, color = "red"))+
+  geom_line()
+#seems like frequently the first of th emonth in january and then in june 
+
+boston_nea_rename%>%
+  ggplot(aes(fiscal_year,grant_amount, color = "red"))+
+  geom_line()
+
+#tsplot(boston_nea_rename$grant_from_date)
+```
+
+#GRANT AMOUNT
+```{r}
+boston_nea_field_total <- boston_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#boston_nea_field_total
+
+boston_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(2:6) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+
+```
+
+```{r}
+boston_nea_year_total <- boston_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#boston_nea_year_total
+
+boston_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+boston_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Boston: Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+boston_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(2:6) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+boston_nea_field_avg <- boston_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#boston_nea_field_avg
+
+boston_nea_field_avg_filter<-boston_nea_field_avg%>% 
+  filter(field == "Challenge America"| field == "Endowments and Cash Reserves"| field == "Internationl"|field == "American Rescue Plan"| field == "Dance")
+
+boston_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "sum_grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+boston_nea_field_sum <- boston_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#boston_nea_field_sum
+
+boston_nea_field_sum_filter<-boston_nea_field_sum%>% 
+  filter(field == "Music"| field == "Arts Education"| field == "Media Arts"|field == "Museums"| field == "Dance")
+
+boston_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in Boston per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+boston_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#boston_nea_public
+
+boston_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#boston_nea_public
+```
+
+
+```{r}
+log_boston1 <- glm(data=boston_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_boston1)
+lrm(is_public_art~grant_amount,boston_nea_rename)
+#log_boston2 <- glm(data=boston_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_boston2)
+
+```
+
+
+```{r}
+boston_public_field_sum <- boston_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+#boston_public_field_sum
+
+boston_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Boston: Funding for Public Art vs. Non-Public Art")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+#COLUMBUS
+```{r}
+cbus_nea_field_total <- cbus_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#cbus_nea_field_total
+
+cbus_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(2:6) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+```
+
+```{r}
+cbus_nea_year_total <- cbus_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#cbus_nea_year_total
+
+cbus_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+cbus_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Columbus: Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+cbus_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(2:6) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+cbus_nea_field_avg <- cbus_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#cbus_nea_field_avg
+
+cbus_nea_field_avg_filter<-cbus_nea_field_avg%>% 
+  filter(field == "American Rescue Plan"| field == "Arts Education"| field == "Coronavirus Aid, Relief, and Economic Security (CARES) Act"|field == "Design"| field == "Multidisciplinary")
+
+cbus_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "mean_grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+cbus_nea_field_sum <- cbus_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#cbus_nea_field_sum
+
+cbus_nea_field_sum_filter<-cbus_nea_field_sum%>% 
+  filter(field == "American Rescue Plan"| field == "Arts Education"| field == "Dance"|field == "Multidisciplinary*"| field == "Presenting & Multidisciplinary Works")
+cbus_nea_field_sum_filter
+cbus_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in Columbus per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+cbus_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#cbus_nea_public
+
+cbus_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#cbus_nea_public
+```
+
+```{r}
+log_cbus1 <- glm(data=cbus_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_cbus1)
+lrm(is_public_art~grant_amount,cbus_nea_rename)
+
+#log_cbus2 <- glm(data=cbus_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_cbus2)
+```
+
+```{r}
+cbus_public_field_sum <- cbus_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+#cbus_public_field_sum
+
+cbus_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Columbus: Funding for Public Art vs. Non-Public Art")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+#DALLAS
+```{r}
+dallas_nea_field_total <- dallas_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#dallas_nea_field_total
+
+dallas_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:5) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+```
+
+```{r}
+dallas_nea_year_total <- dallas_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#dallas_nea_year_total
+
+dallas_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+dallas_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Dallas: Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+355000
+
+```{r}
+dallas_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(1:5) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+dallas_nea_field_avg <- dallas_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#dallas_nea_field_avg
+
+dallas_nea_field_avg_filter<-dallas_nea_field_avg%>% 
+  filter(field == "American Rescue Plan"| field == "Creativity Connects"| field == "Coronavirus Aid, Relief, and Economic Security (CARES) Act"|field == "Federal Partnerships"| field == "Research")
+#dallas_nea_field_avg_filter
+dallas_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "mean_grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+dallas_nea_field_sum <- dallas_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#dallas_nea_field_sum
+
+dallas_nea_field_sum_filter<-dallas_nea_field_sum%>% 
+  filter(field == "American Rescue Plan"| field == "Arts Education"| field == "Museums"|field == "Opera"| field == "Theater")
+
+dallas_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in Dallas per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+dallas_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#dallas_nea_public
+
+dallas_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#dallas_nea_public
+```
+
+```{r}
+log_dallas1 <- glm(data=dallas_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_dallas1)
+lrm(is_public_art~grant_amount,dallas_nea_rename)
+
+#log_dallas2 <- glm(data=dallas_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_dallas2)
+```
+
+```{r}
+dallas_public_field_sum <- dallas_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+#dallas_public_field_sum
+
+dallas_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Dallas: Funding for Public Art vs. Non-Public Art")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+#INDY
+```{r}
+indy_nea_field_total <- indy_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#indy_nea_field_total
+
+indy_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(2:6) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+```
+
+```{r}
+indy_nea_year_total <- indy_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#indy_nea_year_total
+
+indy_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+indy_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "sum_grant_amount")+
+  ggtitle("Indianapolis: Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma) 
+```
+
+```{r}
+indy_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(2:6) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+indy_nea_field_avg <- indy_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#indy_nea_field_avg
+
+indy_nea_field_avg_filter<-indy_nea_field_avg%>% 
+  filter(field == "American Rescue Plan"| field == "Design"| field == "Coronavirus Aid, Relief, and Economic Security (CARES) Act"|field == "Local Arts Agencies"| field == "Research")
+
+indy_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "mean _grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+indy_nea_field_sum <- indy_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#indy_nea_field_sum
+
+indy_nea_field_sum_filter<-indy_nea_field_sum%>% 
+  filter(field == "American Rescue Plan"| field == "Arts Education"| field == "Museums"|field == "Design"| field == "Theater")
+
+indy_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in Indianapolis per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+indy_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#indy_nea_public
+
+indy_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#indy_nea_public
+```
+
+```{r}
+log_indy1 <- glm(data=indy_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_indy1)
+lrm(is_public_art~grant_amount,indy_nea_rename)
+#log_indy2 <- glm(data=indy_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_indy2)
+```
+
+```{r}
+indy_public_field_sum <- indy_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+#indy_public_field_sum
+
+indy_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Indianapolis: Funding for Public Art vs. Non-Public Art")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+#NYC
+```{r}
+nyc_nea_field_total <- nyc_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#nyc_nea_field_total
+
+nyc_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+```
+
+```{r}
+nyc_nea_year_total <- nyc_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+nyc_nea_year_total
+
+nyc_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+nyc_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "sum_grant_amount")+
+    ggtitle("New York City: Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma) 
+```
+
+```{r}
+nyc_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(2:6) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+nyc_nea_field_avg <- nyc_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#nyc_nea_field_avg
+
+nyc_nea_field_avg_filter<-nyc_nea_field_avg%>% 
+  filter(field == "American Rescue Plan"| field == "Creativity Connects"| field == "Endowments and Cash Reserves"|field == "Federal Partnerships"| field == "Resources for Change:Technology")
+#nyc_nea_field_avg_filter
+nyc_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "mean_grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+nyc_nea_field_sum <- nyc_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#nyc_nea_field_sum
+
+nyc_nea_field_sum_filter<-nyc_nea_field_sum%>% 
+  filter(field == "Dance"| field == "Arts Education"| field == "Media Arts"|field == "Music"| field == "Theater")
+
+nyc_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in NYC per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+nyc_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#nyc_nea_public
+
+nyc_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#nyc_nea_public
+```
+
+```{r}
+log_nyc1 <- glm(data=nyc_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_indy1)
+lrm(is_public_art~grant_amount,nyc_nea_rename)
+
+#log_nyc2 <- glm(data=nyc_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_nyc2)
+```
+
+```{r}
+nyc_public_field_sum <- nyc_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+#nyc_public_field_sum
+
+nyc_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("NYC: Funding for Public Art vs. Non-Public Art")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+#SANFRAN
+```{r}
+sanfran_nea_field_total <- sanfran_nea_rename %>% group_by(field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#sanfran_nea_field_total
+
+sanfran_nea_field_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:5) %>%
+    ggplot(., aes(x = reorder(field, -sum_grant_amount), y=sum_grant_amount, fill=field))+
+              geom_bar(stat='identity')
+```
+
+```{r}
+sanfran_nea_year_total <- sanfran_nea_rename %>% group_by(fiscal_year) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+sanfran_nea_year_total
+
+sanfran_nea_year_total %>% 
+    arrange(desc(sum_grant_amount)) %>%
+    slice(1:6) %>%
+    ggplot(., aes(x = reorder(fiscal_year, -sum_grant_amount), y=sum_grant_amount, fill=fiscal_year))+
+              geom_bar(stat='identity')
+
+sanfran_nea_year_total%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = "red"))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "sum_grant_amount")+
+  ggtitle("San Francisco : Total Grant Amount Over Time")+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma) 
+```
+
+```{r}
+sanfran_nea_rename %>%
+  group_by(field) %>%
+  summarise(mean_grant_amount = mean(grant_amount)) %>%
+  arrange(desc(mean_grant_amount)) %>%
+  slice(1:5) %>%
+  ggplot(aes(x = reorder(factor(field) , -mean_grant_amount), y = mean_grant_amount, fill=field)) +
+  geom_col() +
+  labs(x = "Field", y = "Mean Grant Amount")+
+  theme(axis.text.x=element_text(angle=45, hjust=1))
+```
+
+```{r}
+sanfran_nea_field_avg <- sanfran_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(mean_grant_amount=mean(grant_amount),
+            .groups = 'drop')
+#sanfran_nea_field_avg
+
+sanfran_nea_field_avg_filter<-sanfran_nea_field_avg%>% 
+  filter(field == "American Rescue Plan"| field == "Creativity Connects"| field == "Research"|field == "Federal Partnerships"| field == "Resources for Change:Technology")
+#sanfran_nea_field_avg_filter
+sanfran_nea_field_avg_filter%>%
+  ggplot(aes(fiscal_year, mean_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year", y= "mean_grant_amount")+
+  ggtitle("mean_grant_amount Over Time")+
+  theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+```
+
+```{r}
+sanfran_nea_field_sum <- sanfran_nea_rename %>% group_by(fiscal_year, field) %>% 
+  summarise(sum_grant_amount=sum(grant_amount),
+            .groups = 'drop')
+#sanfran_nea_field_sum
+
+sanfran_nea_field_sum_filter<-nyc_nea_field_sum%>% 
+  filter(field == "Dance"| field == "Presenting & Multidisciplinary Works"| field == "Media Arts"|field == "Music"| field == "Theater")
+
+sanfran_nea_field_sum_filter%>%
+  ggplot(aes(fiscal_year, sum_grant_amount, color = field))+
+  geom_line()+
+  labs(x= "Fiscal Year")+
+  ggtitle("Total Funding in Indianapolis per Top Categories Over Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+```{r}
+sanfran_nea_rename%>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  geom_smooth(method="lm", formula = y ~ poly(x,8))
+#sanfran_nea_public
+
+sanfran_nea_rename %>%
+  ggplot(aes(grant_amount,is_public_art))+
+  geom_point()+
+  stat_smooth(method="glm", method.args = list(family=binomial))
+#sanfran_nea_public
+```
+
+```{r}
+log_sanfran1 <- glm(data=sanfran_nea_rename,is_public_art~grant_amount, family = binomial)
+summary(log_sanfran1)
+lrm(is_public_art~grant_amount,sanfran_nea_rename)
+#log_sanfran2 <- glm(data=sanfran_nea_rename,is_public_art~grant_amount+fiscal_year , family = binomial)
+#summary(log_sanfran2)
+```
+
+```{r}
+sanfran_public_field_sum <- sanfran_nea_public %>% group_by(Fiscal.Year, is_public_art) %>% 
+  summarise(sum_grant_amount=sum(Grant.Amount),
+            .groups = 'drop')
+sanfran_public_field_sum
+
+sanfran_public_field_sum%>%
+  ggplot(aes(Fiscal.Year, sum_grant_amount, color = is_public_art))+
+  geom_point()+
+  labs(x= "Fiscal Year")+
+  ggtitle("San Francisco: Funding for Public Art vs. Non-Public Art")+
+  #theme_tufte()+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_y_continuous(name="Total Funding Given (in US dollars)", labels = scales::comma)
+```
+
+
